@@ -18,16 +18,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b30e97ef93ce2456e92e8f8cc135e4a40fa4e9d0c16a851754423bd2a531b6a5
-- kind: project-relative
-  target: copilot
-  value: .agents/skills/sdr-vdot-estimate/resources/VDOT_estimate_data.csv
-  runtime: null
-  scope: project
-  owners:
-  - .
-  active_owner: .
-  content_hash: sha256:9041b0f03becbcc73b7ae37ceae25bf8efa49fcd02849d46aac16856327c9391
+  content_hash: sha256:1e245f12d92f53cf02a7460e8ffa5b93813b9f0cd6af41d9e390287bcf4162f3
 - kind: project-relative
   target: copilot
   value: .agents/skills/sdr-vdot-estimate/scripts/vdot.js
@@ -36,13 +27,11 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:913285cdcb30f3c62f67c37a7d980fef91daca6c49eb9cab937a31ac49d05822
+  content_hash: sha256:bbc8d75585dd07a0bd862a50ae93c6f90dc35bfa79c2fcc986ee1370c43c27a7
 local_deployed_files:
 - .agents/skills/sdr-vdot-estimate
 - .agents/skills/sdr-vdot-estimate/SKILL.md
-- .agents/skills/sdr-vdot-estimate/resources/VDOT_estimate_data.csv
 - .agents/skills/sdr-vdot-estimate/scripts/vdot.js
 local_deployed_file_hashes:
-  .agents/skills/sdr-vdot-estimate/SKILL.md: sha256:b30e97ef93ce2456e92e8f8cc135e4a40fa4e9d0c16a851754423bd2a531b6a5
-  .agents/skills/sdr-vdot-estimate/resources/VDOT_estimate_data.csv: sha256:9041b0f03becbcc73b7ae37ceae25bf8efa49fcd02849d46aac16856327c9391
-  .agents/skills/sdr-vdot-estimate/scripts/vdot.js: sha256:913285cdcb30f3c62f67c37a7d980fef91daca6c49eb9cab937a31ac49d05822
+  .agents/skills/sdr-vdot-estimate/SKILL.md: sha256:1e245f12d92f53cf02a7460e8ffa5b93813b9f0cd6af41d9e390287bcf4162f3
+  .agents/skills/sdr-vdot-estimate/scripts/vdot.js: sha256:bbc8d75585dd07a0bd862a50ae93c6f90dc35bfa79c2fcc986ee1370c43c27a7
