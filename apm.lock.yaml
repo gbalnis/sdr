@@ -18,16 +18,16 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:ddac627ad12a700ae5e9468f4b1cb337c503719149ba289ff029df40bb8d6a4d
+  content_hash: sha256:b30e97ef93ce2456e92e8f8cc135e4a40fa4e9d0c16a851754423bd2a531b6a5
 - kind: project-relative
   target: copilot
-  value: .agents/skills/sdr-vdot-estimate/resources/VDOT system estimates.xlsx
+  value: .agents/skills/sdr-vdot-estimate/resources/VDOT_estimate_data.csv
   runtime: null
   scope: project
   owners:
   - .
   active_owner: .
-  content_hash: sha256:c32b9983a865ccbbc9745207513e593aa7564d6c7889ebd77170d82c9c3964c5
+  content_hash: sha256:9041b0f03becbcc73b7ae37ceae25bf8efa49fcd02849d46aac16856327c9391
 - kind: project-relative
   target: copilot
   value: .agents/skills/sdr-vdot-estimate/scripts/vdot.js
@@ -36,13 +36,13 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:6d3208fccad8424df764e9ac86563eff8aeaf66b542bbf7af15ccbf26705d203
+  content_hash: sha256:913285cdcb30f3c62f67c37a7d980fef91daca6c49eb9cab937a31ac49d05822
 local_deployed_files:
 - .agents/skills/sdr-vdot-estimate
 - .agents/skills/sdr-vdot-estimate/SKILL.md
-- .agents/skills/sdr-vdot-estimate/resources/VDOT system estimates.xlsx
+- .agents/skills/sdr-vdot-estimate/resources/VDOT_estimate_data.csv
 - .agents/skills/sdr-vdot-estimate/scripts/vdot.js
 local_deployed_file_hashes:
-  .agents/skills/sdr-vdot-estimate/SKILL.md: sha256:ddac627ad12a700ae5e9468f4b1cb337c503719149ba289ff029df40bb8d6a4d
-  .agents/skills/sdr-vdot-estimate/resources/VDOT system estimates.xlsx: sha256:c32b9983a865ccbbc9745207513e593aa7564d6c7889ebd77170d82c9c3964c5
-  .agents/skills/sdr-vdot-estimate/scripts/vdot.js: sha256:6d3208fccad8424df764e9ac86563eff8aeaf66b542bbf7af15ccbf26705d203
+  .agents/skills/sdr-vdot-estimate/SKILL.md: sha256:b30e97ef93ce2456e92e8f8cc135e4a40fa4e9d0c16a851754423bd2a531b6a5
+  .agents/skills/sdr-vdot-estimate/resources/VDOT_estimate_data.csv: sha256:9041b0f03becbcc73b7ae37ceae25bf8efa49fcd02849d46aac16856327c9391
+  .agents/skills/sdr-vdot-estimate/scripts/vdot.js: sha256:913285cdcb30f3c62f67c37a7d980fef91daca6c49eb9cab937a31ac49d05822
