@@ -1,0 +1,14 @@
+name: sdr
+version: 1.0.0
+description: Spec-Driven Running
+author: Greg Balnis
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-bot, grok-build, hermes, kiro, opencode, vscode, windsurf
+targets:
+- copilot
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}
