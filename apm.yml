@@ -1,5 +1,5 @@
 name: sdr
-version: 1.0.0
+version: 1.0.1
 description: Spec-Driven Running
 author: Greg Balnis
 # Which agent platforms to deploy to.
