@@ -23,9 +23,9 @@ If the user gives a race result instead of a VDOT, first get the VDOT with the `
 ## Procedure
 
 1. **Get the VDOT** (from the user or from `sdr-vdot-estimate`).
-2. **Run the engine** from the workspace root:
+2. **Run the engine**. `scripts/paces.js` is relative to this skill's directory (the folder containing this SKILL.md); resolve it to that path and keep the current working directory:
    ```sh
-   node ./scripts/paces.js <vdot> --json
+   node <skill-dir>/scripts/paces.js <vdot> --json
    ```
 3. **Handle the result**:
    - `ok` → use `E.pace`, `M.pace`, `T.pace`, `I.pace`, `R.pace` (`m:ss` per km); raw seconds are in `E.min`/`E.max` and `<zone>.sec`.
