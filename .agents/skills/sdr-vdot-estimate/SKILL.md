@@ -27,9 +27,9 @@ VDOT      = VO2 / %VO2max
 ## Procedure
 
 1. **Collect inputs** for each performance: distance and finish time (`h:mm:ss`, `mm:ss` or `mm:ss.s`).
-2. **Run the engine** from the workspace root, one call per performance:
+2. **Run the engine**, one call per performance. `scripts/vdot.js` is relative to this skill's directory (the folder containing this SKILL.md); resolve it to that path and keep the current working directory:
    ```sh
-   node .agents/skills/sdr-vdot-estimate/scripts/vdot.js "<distance>" <time> --json
+   node <skill-dir>/scripts/vdot.js "<distance>" <time> --json
    ```
 3. **Handle the result**:
    - `ok` → report `vdot`.
