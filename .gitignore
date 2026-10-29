@@ -371,3 +371,6 @@ __marimo__/
 
 # APM dependencies
 apm_modules/
+
+# VS Code
+.vscode/
