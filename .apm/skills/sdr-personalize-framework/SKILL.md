@@ -43,6 +43,6 @@ Without `--out` it prints only a per-week summary; `--json` prints the full plan
 ## Completion checks
 
 - The plan file parses, `days` is contiguous down to `before_race: 1` followed by the race day, and every weekly entry has a `weeks` summary.
-- Every run has paces and distances; no easy run is under 30 minutes except where the framework dictates it.
+- Every run has a pace value (single pace string or range object) and distance, except strides with their documented reference pace; no easy run is under 30 minutes except where the framework dictates it.
 - Rest days are on the athlete's preferred day number unless a warning says otherwise.
 - No dates appear anywhere in the plan.

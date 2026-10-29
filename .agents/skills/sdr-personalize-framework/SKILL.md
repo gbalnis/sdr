@@ -28,7 +28,7 @@ Without `--out` it prints only a per-week summary; `--json` prints the full plan
 1. **Check the inputs.** The normalized framework must have `ready: true`; if not, stop and send the user back to `coach-normalize-framework`. The athlete file needs `performances`, `preferences.peakWeek` and `preferences.restDays`.
 2. **Compare volume.** Read the framework `rules` of kind `volume`. If the athlete's `peakWeek` lies outside the volume range the framework is written for (for example a 75 km peak against a framework for up to 64 km), tell the user and ask which framework to use before running the engine.
 3. **Derive the strides option.** Look in the framework `rules` for strides advice. If present, pass `--strides` with count, seconds and recovery resolved to the **upper bound** of any range, and `days` set to the stated minimum number of days per week. If there is none, omit the option.
-4. **Run the engine** from the workspace root. Default output path is `plans/<athlete name lowercase>-<framework file stem>.json`; use the user's path if given. On an error, fix the input described in the message and rerun; do not work around it by hand.
+4. **Run the engine** from the workspace root. Default output path is `<workspace-root>/<athlete name lowercase>-<framework file stem>.json`; use the user's path if given. On an error, fix the input described in the message and rerun; do not work around it by hand.
 5. **Review the summary.** For each week compare `planned_km` against `target_km` (should be within 0.1 km). Report every warning: `volume_shortfall`, `target_exceeded`, `rest_day_moved`, `strides_days_short`, `vdot_offset_missing`, and `framework_gap_rest`, which means the framework leaves days unspecified and the plan makes them rest days.
 6. **Report briefly**: baseline VDOT and its source race, the weeks that needed extra rest days, warnings, and the output path. Mention the open items that belong to later steps: calendar scheduling.
 
@@ -43,6 +43,6 @@ Without `--out` it prints only a per-week summary; `--json` prints the full plan
 ## Completion checks
 
 - The plan file parses, `days` is contiguous down to `before_race: 1` followed by the race day, and every weekly entry has a `weeks` summary.
-- Every run has paces and distances; no easy run is under 30 minutes except where the framework dictates it.
+- Every run has a pace value (single pace string or range object) and distance, except strides with their documented reference pace; no easy run is under 30 minutes except where the framework dictates it.
 - Rest days are on the athlete's preferred day number unless a warning says otherwise.
 - No dates appear anywhere in the plan.

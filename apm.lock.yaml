@@ -45,7 +45,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:67e180d78e472fdfa1c83dc9c2b094ec753baaf6c626daf130ee07b8b1a56483
+  content_hash: sha256:190ce9d8f45207c1ab629c306bb3e07081fc8e6c7839f10f21215b095f649d3e
 - kind: project-relative
   target: copilot
   value: .agents/skills/sdr-personalize-framework/references/plan-format.md
@@ -54,7 +54,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b199bae0e3eec29bdcf9df29df393f13c01733b841b7340efbd91b478c17c1a6
+  content_hash: sha256:1cf12ccca097111afccd388d81682811c081760732356be951c30457a92e001b
 - kind: project-relative
   target: copilot
   value: .agents/skills/sdr-personalize-framework/scripts/personalize.js
@@ -63,7 +63,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:85d52a6af5ef9351f3c2f116b211a1420d5b53cf4f3cb906462e465c69f31e23
+  content_hash: sha256:a88b1bbf458906048cce9d9cd75c0c2fddfd4e77c16b838dc777bf7097582abb
 - kind: project-relative
   target: copilot
   value: .agents/skills/sdr-vdot-estimate
@@ -135,9 +135,9 @@ local_deployed_files:
 local_deployed_file_hashes:
   .agents/skills/sdr-normalize-framework/SKILL.md: sha256:e8444118ddea839e819e2ec1bb91461a16f662dfe720f658723b60f8c7d51a75
   .agents/skills/sdr-normalize-framework/references/normalized-format.md: sha256:c3117977cf1001a163898cd5f3dc5cd49a4fd7642b2f75f74083b8130cba407f
-  .agents/skills/sdr-personalize-framework/SKILL.md: sha256:67e180d78e472fdfa1c83dc9c2b094ec753baaf6c626daf130ee07b8b1a56483
-  .agents/skills/sdr-personalize-framework/references/plan-format.md: sha256:b199bae0e3eec29bdcf9df29df393f13c01733b841b7340efbd91b478c17c1a6
-  .agents/skills/sdr-personalize-framework/scripts/personalize.js: sha256:85d52a6af5ef9351f3c2f116b211a1420d5b53cf4f3cb906462e465c69f31e23
+  .agents/skills/sdr-personalize-framework/SKILL.md: sha256:190ce9d8f45207c1ab629c306bb3e07081fc8e6c7839f10f21215b095f649d3e
+  .agents/skills/sdr-personalize-framework/references/plan-format.md: sha256:1cf12ccca097111afccd388d81682811c081760732356be951c30457a92e001b
+  .agents/skills/sdr-personalize-framework/scripts/personalize.js: sha256:a88b1bbf458906048cce9d9cd75c0c2fddfd4e77c16b838dc777bf7097582abb
   .agents/skills/sdr-vdot-estimate/SKILL.md: sha256:9383878f6cd985d6a0bd4e102426ff8f7df8c69079029ef803516b6ddf198e11
   .agents/skills/sdr-vdot-estimate/scripts/vdot.js: sha256:bbc8d75585dd07a0bd862a50ae93c6f90dc35bfa79c2fcc986ee1370c43c27a7
   .agents/skills/sdr-vdot-paces/SKILL.md: sha256:01019cff26e1bc2e9d942132cecc31a649923459e13e976267e8626d338b61bd

@@ -63,7 +63,10 @@
       "easy_runs": 2,
       "rest_days": 3,
       "paces_per_km": {
-        "E": "6:27",
+        "E": {
+          "min": "5:46",
+          "max": "6:27"
+        },
         "M": "5:19",
         "T": "4:57",
         "I": "4:34",
@@ -81,7 +84,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:27",
+        "E": {
+          "min": "5:46",
+          "max": "6:27"
+        },
         "M": "5:19",
         "T": "4:57",
         "I": "4:34",
@@ -99,7 +105,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:27",
+        "E": {
+          "min": "5:46",
+          "max": "6:27"
+        },
         "M": "5:19",
         "T": "4:57",
         "I": "4:34",
@@ -117,7 +126,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:27",
+        "E": {
+          "min": "5:46",
+          "max": "6:27"
+        },
         "M": "5:19",
         "T": "4:57",
         "I": "4:34",
@@ -135,7 +147,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:27",
+        "E": {
+          "min": "5:46",
+          "max": "6:27"
+        },
         "M": "5:19",
         "T": "4:57",
         "I": "4:34",
@@ -153,7 +168,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:27",
+        "E": {
+          "min": "5:46",
+          "max": "6:27"
+        },
         "M": "5:19",
         "T": "4:57",
         "I": "4:34",
@@ -171,7 +189,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -189,7 +210,10 @@
       "easy_runs": 3,
       "rest_days": 2,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -207,7 +231,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -225,7 +252,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -243,7 +273,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -261,7 +294,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -279,7 +315,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:20",
+        "E": {
+          "min": "5:39",
+          "max": "6:20"
+        },
         "M": "5:13",
         "T": "4:51",
         "I": "4:29",
@@ -297,7 +336,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:13",
+        "E": {
+          "min": "5:32",
+          "max": "6:13"
+        },
         "M": "5:06",
         "T": "4:46",
         "I": "4:24",
@@ -315,7 +357,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:13",
+        "E": {
+          "min": "5:32",
+          "max": "6:13"
+        },
         "M": "5:06",
         "T": "4:46",
         "I": "4:24",
@@ -333,7 +378,10 @@
       "easy_runs": 3,
       "rest_days": 2,
       "paces_per_km": {
-        "E": "6:13",
+        "E": {
+          "min": "5:32",
+          "max": "6:13"
+        },
         "M": "5:06",
         "T": "4:46",
         "I": "4:24",
@@ -351,7 +399,10 @@
       "easy_runs": 4,
       "rest_days": 1,
       "paces_per_km": {
-        "E": "6:13",
+        "E": {
+          "min": "5:32",
+          "max": "6:13"
+        },
         "M": "5:06",
         "T": "4:46",
         "I": "4:24",
@@ -377,7 +428,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.437,
               "duration_min": 41.52
             },
@@ -398,7 +452,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.609,
               "duration_min": 10.38
             }
@@ -433,7 +490,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.651,
               "duration_min": 23.55
             },
@@ -468,7 +528,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -494,7 +557,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 12.875,
               "duration_min": 83.04
             },
@@ -534,7 +600,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -569,7 +638,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.551,
               "duration_min": 22.9
             },
@@ -604,7 +676,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -639,7 +714,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             },
@@ -653,7 +731,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.202,
               "duration_min": 40
             },
@@ -667,7 +748,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.609,
               "duration_min": 10.38
             }
@@ -702,7 +786,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.951,
               "duration_min": 12.58
             },
@@ -737,7 +824,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -763,7 +853,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 9.656,
               "duration_min": 62.28
             },
@@ -785,7 +878,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:27",
+                  "pace_per_km": {
+                    "min": "5:46",
+                    "max": "6:27"
+                  },
                   "distance_km": 0.31,
                   "duration_min": 2
                 }
@@ -811,7 +907,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:27",
+                  "pace_per_km": {
+                    "min": "5:46",
+                    "max": "6:27"
+                  },
                   "distance_km": 0.31,
                   "duration_min": 2
                 }
@@ -822,7 +921,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -848,7 +950,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 5,
               "duration_min": 32.25
             }
@@ -874,7 +979,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.951,
               "duration_min": 12.58
             },
@@ -909,7 +1017,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -935,7 +1046,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 4.9,
               "duration_min": 31.61
             }
@@ -961,7 +1075,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 18.605,
               "duration_min": 120,
               "range": {
@@ -1001,7 +1118,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.851,
               "duration_min": 24.84
             },
@@ -1036,7 +1156,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1062,7 +1185,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 9.656,
               "duration_min": 62.28
             },
@@ -1076,7 +1202,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 0.31,
               "duration_min": 2
             },
@@ -1090,7 +1219,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 0.31,
               "duration_min": 2
             },
@@ -1104,7 +1236,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -1130,7 +1265,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.9,
               "duration_min": 44.51
             }
@@ -1156,7 +1294,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.751,
               "duration_min": 24.19
             },
@@ -1191,7 +1332,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1217,7 +1361,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.8,
               "duration_min": 43.86
             }
@@ -1243,7 +1390,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             },
@@ -1257,7 +1407,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.609,
               "duration_min": 10.38
             },
@@ -1271,7 +1424,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -1306,7 +1462,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.051,
               "duration_min": 19.68
             },
@@ -1341,7 +1500,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1367,7 +1529,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.202,
               "duration_min": 40
             },
@@ -1400,7 +1565,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -1426,7 +1594,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.1,
               "duration_min": 39.34
             }
@@ -1452,7 +1623,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.051,
               "duration_min": 19.68
             },
@@ -1487,7 +1661,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1513,7 +1690,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6,
               "duration_min": 38.7
             }
@@ -1539,7 +1719,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.609,
               "duration_min": 10.38
             },
@@ -1572,7 +1755,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 9.302,
               "duration_min": 60
             },
@@ -1586,7 +1772,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.609,
               "duration_min": 10.38
             }
@@ -1621,7 +1810,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.851,
               "duration_min": 24.84
             },
@@ -1656,7 +1848,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1682,7 +1877,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 9.656,
               "duration_min": 62.28
             },
@@ -1704,7 +1902,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:27",
+                  "pace_per_km": {
+                    "min": "5:46",
+                    "max": "6:27"
+                  },
                   "distance_km": 0.465,
                   "duration_min": 3
                 }
@@ -1715,7 +1916,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -1741,7 +1945,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.8,
               "duration_min": 43.86
             }
@@ -1767,7 +1974,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.751,
               "duration_min": 24.19
             },
@@ -1802,7 +2012,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1828,7 +2041,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.8,
               "duration_min": 43.86
             }
@@ -1854,7 +2070,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 18.605,
               "duration_min": 120,
               "range": {
@@ -1894,7 +2113,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 4.451,
               "duration_min": 28.71
             },
@@ -1929,7 +2151,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -1955,7 +2180,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 6.202,
               "duration_min": 40
             },
@@ -1988,7 +2216,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 3.219,
               "duration_min": 20.76
             }
@@ -2014,7 +2245,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 7.5,
               "duration_min": 48.38
             }
@@ -2040,7 +2274,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 4.351,
               "duration_min": 28.06
             },
@@ -2075,7 +2312,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 1.55,
               "duration_min": 10
             }
@@ -2101,7 +2341,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:27",
+              "pace_per_km": {
+                "min": "5:46",
+                "max": "6:27"
+              },
               "distance_km": 7.4,
               "duration_min": 47.73
             }
@@ -2127,7 +2370,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             },
@@ -2141,7 +2387,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             },
@@ -2155,7 +2404,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             }
@@ -2190,7 +2442,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.391,
               "duration_min": 21.45
             },
@@ -2225,7 +2480,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -2251,7 +2509,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 9.656,
               "duration_min": 61.07
             },
@@ -2265,7 +2526,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 0.474,
               "duration_min": 3
             },
@@ -2279,7 +2543,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 0.316,
               "duration_min": 2
             },
@@ -2293,7 +2560,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             }
@@ -2319,7 +2589,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 6.5,
               "duration_min": 41.11
             }
@@ -2345,7 +2618,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.391,
               "duration_min": 21.45
             },
@@ -2380,7 +2656,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -2406,7 +2685,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 6.4,
               "duration_min": 40.48
             }
@@ -2432,7 +2714,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 16.093,
               "duration_min": 101.79
             },
@@ -2465,7 +2750,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             }
@@ -2500,7 +2788,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 2.691,
               "duration_min": 17.02
             },
@@ -2535,7 +2826,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -2561,7 +2855,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 12.875,
               "duration_min": 81.43
             },
@@ -2583,7 +2880,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:20",
+                  "pace_per_km": {
+                    "min": "5:39",
+                    "max": "6:20"
+                  },
                   "distance_km": 0.316,
                   "duration_min": 2
                 }
@@ -2609,7 +2909,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:20",
+                  "pace_per_km": {
+                    "min": "5:39",
+                    "max": "6:20"
+                  },
                   "distance_km": 0.316,
                   "duration_min": 2
                 }
@@ -2620,7 +2923,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             }
@@ -2655,7 +2961,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 5.8,
               "duration_min": 36.68
             }
@@ -2681,7 +2990,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 2.691,
               "duration_min": 17.02
             },
@@ -2716,7 +3028,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -2742,7 +3057,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 18.972,
               "duration_min": 120
             }
@@ -2777,7 +3095,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 4.491,
               "duration_min": 28.4
             },
@@ -2812,7 +3133,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -2838,7 +3162,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             },
@@ -2852,7 +3179,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             }
@@ -2878,7 +3208,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 7.6,
               "duration_min": 48.07
             }
@@ -2904,7 +3237,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 4.491,
               "duration_min": 28.4
             },
@@ -2939,7 +3275,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -2965,7 +3304,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 7.5,
               "duration_min": 47.44
             }
@@ -2991,7 +3333,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             },
@@ -3005,7 +3350,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             },
@@ -3026,7 +3374,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             }
@@ -3061,7 +3412,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.991,
               "duration_min": 25.24
             },
@@ -3096,7 +3450,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3122,7 +3479,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 8.047,
               "duration_min": 50.9
             },
@@ -3162,7 +3522,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             }
@@ -3188,7 +3551,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 7.1,
               "duration_min": 44.91
             }
@@ -3214,7 +3580,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.991,
               "duration_min": 25.24
             },
@@ -3249,7 +3618,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3275,7 +3647,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 7,
               "duration_min": 44.27
             }
@@ -3301,7 +3676,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 9.486,
               "duration_min": 60
             },
@@ -3315,7 +3693,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             }
@@ -3350,7 +3731,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.991,
               "duration_min": 12.59
             },
@@ -3385,7 +3769,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3411,7 +3798,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 12.875,
               "duration_min": 81.43
             },
@@ -3433,7 +3823,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:20",
+                  "pace_per_km": {
+                    "min": "5:39",
+                    "max": "6:20"
+                  },
                   "distance_km": 0.474,
                   "duration_min": 3
                 }
@@ -3444,7 +3837,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 4.828,
               "duration_min": 30.54
             }
@@ -3470,7 +3866,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 5.1,
               "duration_min": 32.26
             }
@@ -3496,7 +3895,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.991,
               "duration_min": 12.59
             },
@@ -3531,7 +3933,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3557,7 +3962,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 5.1,
               "duration_min": 32.26
             }
@@ -3583,7 +3991,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 23.715,
               "duration_min": 150,
               "range": {
@@ -3623,7 +4034,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.791,
               "duration_min": 11.33
             },
@@ -3658,7 +4072,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3684,7 +4101,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             },
@@ -3713,7 +4133,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "unspecified",
-                  "pace_per_km": "6:20",
+                  "pace_per_km": {
+                    "min": "5:39",
+                    "max": "6:20"
+                  },
                   "distance_km": 0.158,
                   "duration_min": 1
                 }
@@ -3724,7 +4147,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             }
@@ -3750,7 +4176,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 4.8,
               "duration_min": 30.36
             }
@@ -3776,7 +4205,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.691,
               "duration_min": 10.69
             },
@@ -3811,7 +4243,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3837,7 +4272,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 4.8,
               "duration_min": 30.36
             }
@@ -3863,7 +4301,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.219,
               "duration_min": 20.36
             },
@@ -3877,7 +4318,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             }
@@ -3912,7 +4356,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.291,
               "duration_min": 20.81
             },
@@ -3947,7 +4394,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -3973,7 +4423,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 9.486,
               "duration_min": 60
             },
@@ -4013,7 +4466,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.609,
               "duration_min": 10.18
             }
@@ -4039,7 +4495,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 6.3,
               "duration_min": 39.85
             }
@@ -4065,7 +4524,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 3.191,
               "duration_min": 20.18
             },
@@ -4100,7 +4562,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 1.581,
               "duration_min": 10
             }
@@ -4126,7 +4591,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:20",
+              "pace_per_km": {
+                "min": "5:39",
+                "max": "6:20"
+              },
               "distance_km": 6.3,
               "duration_min": 39.85
             }
@@ -4152,7 +4620,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.219,
               "duration_min": 20.01
             },
@@ -4166,7 +4637,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 9.651,
               "duration_min": 60
             },
@@ -4180,7 +4654,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.219,
               "duration_min": 20.01
             }
@@ -4215,7 +4692,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.336,
               "duration_min": 20.74
             },
@@ -4250,7 +4730,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -4276,7 +4759,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 12.875,
               "duration_min": 80.04
             },
@@ -4298,7 +4784,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "easy",
-                  "pace_per_km": "6:13",
+                  "pace_per_km": {
+                    "min": "5:32",
+                    "max": "6:13"
+                  },
                   "distance_km": 0.322,
                   "duration_min": 2
                 }
@@ -4324,7 +4813,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "jog",
-                  "pace_per_km": "6:13",
+                  "pace_per_km": {
+                    "min": "5:32",
+                    "max": "6:13"
+                  },
                   "distance_km": 0.322,
                   "duration_min": 2
                 }
@@ -4335,7 +4827,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 4.828,
               "duration_min": 30.01
             }
@@ -4361,7 +4856,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.5,
               "duration_min": 40.41
             }
@@ -4387,7 +4885,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.336,
               "duration_min": 20.74
             },
@@ -4422,7 +4923,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -4448,7 +4952,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.4,
               "duration_min": 39.79
             }
@@ -4474,7 +4981,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 24.129,
               "duration_min": 150
             }
@@ -4509,7 +5019,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 2.436,
               "duration_min": 15.15
             },
@@ -4544,7 +5057,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -4570,7 +5086,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 9.656,
               "duration_min": 60.03
             },
@@ -4592,7 +5111,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "easy",
-                  "pace_per_km": "6:13",
+                  "pace_per_km": {
+                    "min": "5:32",
+                    "max": "6:13"
+                  },
                   "distance_km": 0.322,
                   "duration_min": 2
                 }
@@ -4603,7 +5125,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.437,
               "duration_min": 40.02
             }
@@ -4629,7 +5154,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 5.6,
               "duration_min": 34.81
             }
@@ -4655,7 +5183,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 2.436,
               "duration_min": 15.15
             },
@@ -4690,7 +5221,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -4716,7 +5250,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 5.5,
               "duration_min": 34.19
             }
@@ -4742,7 +5279,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             },
@@ -4756,7 +5296,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             },
@@ -4770,7 +5313,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -4805,7 +5351,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.236,
               "duration_min": 20.12
             },
@@ -4840,7 +5389,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -4866,7 +5418,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.437,
               "duration_min": 40.02
             },
@@ -4925,7 +5480,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.219,
               "duration_min": 20.01
             }
@@ -4960,7 +5518,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.4,
               "duration_min": 39.79
             }
@@ -4986,7 +5547,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.236,
               "duration_min": 20.12
             },
@@ -5021,7 +5585,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -5047,7 +5614,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             },
@@ -5069,7 +5639,10 @@
                 "step": {
                   "type": "recovery",
                   "mode": "easy",
-                  "pace_per_km": "6:13",
+                  "pace_per_km": {
+                    "min": "5:32",
+                    "max": "6:13"
+                  },
                   "distance_km": 0.322,
                   "duration_min": 2
                 }
@@ -5080,7 +5653,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 9.651,
               "duration_min": 60
             }
@@ -5115,7 +5691,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.036,
               "duration_min": 18.88
             },
@@ -5150,7 +5729,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -5176,7 +5758,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.437,
               "duration_min": 40.02
             },
@@ -5197,7 +5782,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             },
@@ -5218,7 +5806,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.219,
               "duration_min": 20.01
             }
@@ -5244,7 +5835,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.2,
               "duration_min": 38.54
             }
@@ -5270,7 +5864,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.036,
               "duration_min": 18.88
             },
@@ -5305,7 +5902,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 1.609,
               "duration_min": 10
             }
@@ -5331,7 +5931,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.1,
               "duration_min": 37.92
             }
@@ -5358,7 +5961,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 14.477,
               "duration_min": 90
             }
@@ -5384,7 +5990,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 9.651,
               "duration_min": 60
             }
@@ -5410,7 +6019,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.219,
               "duration_min": 20.01
             },
@@ -5443,7 +6055,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.219,
               "duration_min": 20.01
             }
@@ -5469,7 +6084,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 8.043,
               "duration_min": 50
             }
@@ -5495,7 +6113,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 6.434,
               "duration_min": 40,
               "range": {
@@ -5526,7 +6147,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 3.217,
               "duration_min": 20,
               "range": {
@@ -5557,7 +6181,10 @@
             {
               "type": "run",
               "intensity": "E",
-              "pace_per_km": "6:13",
+              "pace_per_km": {
+                "min": "5:32",
+                "max": "6:13"
+              },
               "distance_km": 4.826,
               "duration_min": 30,
               "range": {

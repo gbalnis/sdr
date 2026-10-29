@@ -5,8 +5,8 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { estimate, formatTime } = require('../../sdr-vdot-estimate/scripts/vdot.js');
-const { paces } = require('../../sdr-vdot-paces/scripts/paces.js');
+const { estimate } = require('../../sdr-vdot-estimate/scripts/vdot.js');
+const { paces, formatPace } = require('../../sdr-vdot-paces/scripts/paces.js');
 
 const KM_PER_MILE = 1.609344;
 const WEEKDAYS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
@@ -14,8 +14,6 @@ const MIN_EASY_MIN = 30;
 
 const r3 = (x) => Number(x.toFixed(3));
 const r2 = (x) => Number(x.toFixed(2));
-const fmtPace = (sec) => formatTime(Math.round(sec));
-
 // ---------- athlete profile ----------
 
 const unquote = (s) => s.replace(/^(['"])(.*)\1$/, '$2');
@@ -88,7 +86,14 @@ function paceTable(vdot) {
     }
     const perKm = { E: result.E.max, M: result.M.sec, T: result.T.sec, I: result.I.sec, R: result.R.sec };
     if (Object.values(perKm).some((pace) => !Number.isFinite(pace))) throw new Error(`No complete pace table for VDOT ${key}`);
-    paceCache.set(key, { vdot: Number(key), perKm });
+    const perZone = {
+      E: { min: formatPace(result.E.min), max: formatPace(result.E.max) },
+      M: result.M.pace,
+      T: result.T.pace,
+      I: result.I.pace,
+      R: result.R.pace,
+    };
+    paceCache.set(key, { vdot: Number(key), perKm, perZone });
   }
   return paceCache.get(key);
 }
@@ -118,7 +123,7 @@ function build(step, pt, where) {
   if (step.type === 'run') {
     const pace = paceFor(pt, step.intensity, where);
     const { km, min, range } = distanceAndTime(step.amount, pace, where);
-    const node = { type: 'run', intensity: step.intensity, pace_per_km: fmtPace(pace), distance_km: r3(km), duration_min: r2(min) };
+    const node = { type: 'run', intensity: step.intensity, pace_per_km: pt.perZone[step.intensity], distance_km: r3(km), duration_min: r2(min) };
     if (range) node.range = range;
     return { node, km, min };
   }
@@ -130,7 +135,7 @@ function build(step, pt, where) {
     }
     const pace = paceFor(pt, 'E', where);
     const { km, min } = distanceAndTime(step.amount, pace, where);
-    return { node: { type: 'recovery', mode: step.mode, pace_per_km: fmtPace(pace), distance_km: r3(km), duration_min: r2(min) }, km, min };
+    return { node: { type: 'recovery', mode: step.mode, pace_per_km: pt.perZone.E, distance_km: r3(km), duration_min: r2(min) }, km, min };
   }
   if (step.type === 'repeat') {
     if (!step.count) throw new Error(`Unresolved repeat count at ${where}`);
@@ -163,7 +168,7 @@ function buildRun(id, session, pt, where) {
 
 function buildEasyRun(id, km, pt, strides) {
   const e = pt.perKm.E;
-  const run = (distance) => ({ type: 'run', intensity: 'E', pace_per_km: fmtPace(e), distance_km: r3(distance), duration_min: r2((distance * e) / 60) });
+  const run = (distance) => ({ type: 'run', intensity: 'E', pace_per_km: pt.perZone.E, distance_km: r3(distance), duration_min: r2((distance * e) / 60) });
   let steps;
   if (!strides) {
     steps = [run(km)];
@@ -179,7 +184,7 @@ function buildEasyRun(id, km, pt, strides) {
       {
         type: 'repeat',
         count: strides.count,
-        steps: [{ type: 'run', intensity: 'ST', pace_per_km: null, reference_pace_per_km: fmtPace(pt.perKm.R), distance_km: null, duration_min: r2(strides.seconds / 60) }],
+        steps: [{ type: 'run', intensity: 'ST', pace_per_km: null, reference_pace_per_km: pt.perZone.R, distance_km: null, duration_min: r2(strides.seconds / 60) }],
         recovery: { placement: 'between', count: strides.count - 1, step: { type: 'recovery', mode: 'jog', pace_per_km: null, distance_km: null, duration_min: r2(strides.recovery / 60) } },
         distance_km: r3(blockKm),
         duration_min: r2(blockSec / 60),
@@ -356,7 +361,7 @@ function plan(framework, athlete, opts) {
       easy_km: r2(easyTotal),
       easy_runs: easyDays.length,
       rest_days: 7 - qDays.length - easyDays.length,
-      paces_per_km: Object.fromEntries(['E', 'M', 'T', 'I', 'R'].map((z) => [z, fmtPace(pt.perKm[z])])),
+      paces_per_km: pt.perZone,
     });
   }
 
