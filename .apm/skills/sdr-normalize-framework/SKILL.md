@@ -2,6 +2,7 @@
 name: sdr-normalize-framework
 description: 'Normalize an unstructured running training framework into athlete-independent, race-relative weekly or daily sessions. Use when: coach.normalize-framework, importing a training framework, interpreting loose workout descriptions, extracting Q1/Q2/Q3 sessions, converting imperial distances to metric and durations to minutes, or preserving framework VDOT corrections for downstream planning.'
 argument-hint: 'Framework text or path, optionally an output path'
+allowed-tools: node
 ---
 
 # Normalize Training Framework

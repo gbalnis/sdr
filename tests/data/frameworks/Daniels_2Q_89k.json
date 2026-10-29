@@ -1,463 +1,98 @@
 {
   "schema_version": 1,
   "title": "Jack Daniels 2Q Marathon Training Program (66-89 km)",
-  "source": {
-    "label": "tests/data/inputs/2Q.md",
-    "input_units": "imperial"
-  },
-  "ready": false,
+  "source": {"label": "tests/data/inputs/Daniels_2Q_89k.md", "input_units": "imperial"},
+  "ready": true,
   "rules": [
-    {
-      "kind": "other",
-      "text": "Before starting any 2Q 18-week program, have at least 6 weeks of running under your belt.",
-      "source_text": "Before starting any 2Q 18-week program, you should have at least 6 weeks of running under your belt."
-    },
-    {
-      "kind": "scheduling",
-      "text": "The framework includes two Q sessions each week. Try to run on at least 6 days each week. Q1 is suggested for Sunday or the marathon weekday; Q2 is best on Wednesday or Thursday when Q1 is Sunday. Rearrange as needed, aiming for 2 or 3 E days between Q days.",
-      "source_text": "All 2Q plans include two Q training sessions each week. Try to do some running on at least 6 days each week. It is suggested that Q1 be on Sunday, or the same day of the week on which your coming marathon will be run. With Q1 on Sunday, then Q2 is best located on Wednesday or Thursday. Feel free to rearrange your Q1 and Q2 sessions to fall on whichever days best suit your personal schedule, but make an effort to always have 2 or 3 E days between Q days."
-    },
-    {
-      "kind": "scheduling",
-      "text": "E days are for recovery and reaching weekly mileage goals, and may contain one or more E runs. A day off may be taken, with remaining E days adjusted to reach the weekly goal. Add 6 to 8 strides to the middle or end of at least 2 E days weekly; strides are controlled 15-20 second runs with 45-60 seconds recovery, not sprints.",
-      "source_text": "E days are to be used for recovery and easy running to accumulate your weekly mileage goals. E days may involve one, two, or more E runs each day, as needed. If you must, or desire to, take a day off from training now and then, just use the remaining E days of that week to reach your weekly mileage goal. Make a habit of adding six to eight strides to the middle or end of at least 2 E days each week. Strides (ST) are meant to be light, quick 15- to 20-second runs, with about 45 to 60 seconds of recovery between each. Strides are fast, controlled runs but not sprints."
-    },
-    {
-      "kind": "scheduling",
-      "text": "If racing during the plan, schedule the race in place of that week's Q1, move the displaced Q1 to midweek, and drop Q2. Aim for 3 E days before a race and 1 E day per 3,000 to 4,000 meters after it (the source gives 3 E days after a 10K as an example).",
-      "source_text": "If you include races during this marathon plan, schedule them in place of your Q1 session for that week, but perform the displaced Q1 session at midweek and drop that week’s Q2 altogether. This means a Sunday race would start the week with the race, followed by that week’s Q1 (a few days later), and the next week starts with its Q1, as normal. Try to rearrange training so you get 3 E days before a race, and take 1 E day for each 3,000 to 4,000 meters of race distance (e.g., 3 E days after a 10K)."
-    },
-    {
-      "kind": "volume",
-      "text": "Weekly mileage is suggested to vary from about 80 to 100 percent of peak P, the most mileage planned in any single program week. Each row's fraction is relative to that unspecified peak.",
-      "source_text": "I typically suggest that weekly mileage vary from about 80 to 100 percent of peak (P) mileage, with P being the most mileage you plan to run in any single week of this program. For example, if you pick 40 miles as your peak weekly mileage, then, when I suggest .8 P for a week, this means you run 80 percent of 40 (32 miles) for the week. Each week’s suggested fraction of P is listed in the second column of the program."
-    },
-    {
-      "kind": "vdot",
-      "text": "For VDOT-based M, T, I, and R training speeds, use a realistic VDOT based on a race of at least 10K, preferably longer and recent; if needed, conservatively estimate comparable race ability. The first six program weeks use the lesser of recent-race VDOT and anticipated marathon VDOT minus 2; the second six increase that value by 1; the final six increase it by another 1. Table row offsets are retained where explicit.",
-      "source_text": "If you use VDOT values to determine training speeds for M, T, I, and R paces, try to be realistic, and use a VDOT that comes from a race distance of at least 10K. The longer and more recent the race, the better. If it has been a while since a race, make a conservative estimate of what you think you can race over a course of similar terrain to what you will face in training and in your marathon. For the first 6 weeks of this program, use the lesser of the VDOT values that is equal to a recent race and 2 VDOT units lower than your anticipated marathon VDOT. During the second 6 weeks of this program, increase the VDOT value by 1 unit, and for the final 6 weeks, increase another VDOT unit for determining training intensities."
-    },
-    {
-      "kind": "vdot",
-      "text": "If not using VDOT units, choose a realistic goal M pace; final T pace is 15 seconds per mile faster, final I is 6 seconds per 400 meters faster than T, and final R is 3 seconds per 200 meters faster than I. For the first 6 weeks use paces 10 seconds per mile (6 seconds/km) slower than goal/final paces; for the middle 6 weeks use paces within 4 seconds per mile (2.5 seconds/km) of goal/final paces, which apply during the final 6 weeks. The pace formulas remain rules and do not assign athlete-specific paces here.",
-      "source_text": "If not using VDOT units, choose a realistic goal M pace. Then, final T pace will be 15 seconds per mile faster than goal M pace. Final I pace will be 6 seconds per 400 meters faster than T pace. Final R pace will be 3 seconds per 200 meters faster than I pace. An example of using this method follows: Assume estimated M race pace is 6:00 per mile (3:43/km), which means your final T pace is 5:45/mile (about 86 sec/400 and 3:35/km). This makes final I pace 80 sec/400 or 3:20/km, and final R pace is 74/400 and 37/200. For the first 6 weeks, use training paces that are 10 seconds per mile (6 sec/km) slower than your goal and final paces, and for the middle 6 weeks, bring the paces to within 4 seconds per mile (2.5 sec/km) of your goal and final paces (which are then to be used during the final 6 weeks of the overall 18-week program)."
-    },
-    {
-      "kind": "optional",
-      "text": "Bolded quality sessions may be eliminated when overly tired or overwhelmed and replaced by an E day of training.",
-      "source_text": "I have bolded some quality sessions, which means if you feel overly tired or overwhelmed, the bolded session may be eliminated and replaced by an E day of training."
-    },
-    {
-      "kind": "other",
-      "text": "Workout quantities before an intensity are distances in miles; explicit min quantities are durations in minutes. The source describes the table as serving runners from 41 miles (64 km) to about 55 miles (98 km) per week.",
-      "source_text": "Table below shows programs for runners who are running from 41 miles (64 km) per week to about 55 miles (98 km) per week. The number listed before the training intensity is the number of miles that should be completed at that intensity. For example, 3 E means 3 miles at easy pace, 4 M means 4 miles at marathon pace, and 1 T means 1 mile at threshold pace."
-    },
-    {
-      "kind": "other",
-      "text": "This is a framework for 41 to about 55 miles per week; the title labels it 66-89 km.",
-      "source_text": "Jack Daniels 2Q Marathon Training Program (66-89 km); Table below shows programs for runners who are running from 41 miles (64 km) per week to about 55 miles (98 km) per week."
-    }
+    {"kind": "other", "text": "Before starting the 18-week program, have at least 6 weeks of running.", "source_text": "Before starting any 2Q 18-week program, you should have at least 6 weeks of running under your belt."},
+    {"kind": "scheduling", "text": "The framework has two Q sessions weekly; try to run at least 6 days. Q1 is suggested on Sunday or the marathon weekday; when Q1 is Sunday, Q2 is best on Wednesday or Thursday. Rearrange as needed, aiming for 2 or 3 E days between Q days.", "source_text": "All 2Q plans include two Q training sessions each week. Try to do some running on at least 6 days each week. It is suggested that Q1 be on Sunday, or the same day of the week on which your coming marathon will be run. With Q1 on Sunday, then Q2 is best located on Wednesday or Thursday. Feel free to rearrange your Q1 and Q2 sessions to fall on whichever days best suit your personal schedule, but make an effort to always have 2 or 3 E days between Q days."},
+    {"kind": "scheduling", "text": "E days support recovery and weekly mileage goals, and may contain multiple easy runs. A day off may be taken while reaching the goal with remaining E days. Add 6-8 controlled 15-20 second strides with 45-60 seconds recovery to at least 2 E days weekly; strides are not sprints.", "source_text": "E days are to be used for recovery and easy running to accumulate your weekly mileage goals. E days may involve one, two, or more E runs each day, as needed. If you must, or desire to, take a day off from training now and then, just use the remaining E days of that week to reach your weekly mileage goal. Make a habit of adding six to eight strides to the middle or end of at least 2 E days each week. Strides (ST) are meant to be light, quick 15- to 20-second runs, with about 45 to 60 seconds of recovery between each. Strides are fast, controlled runs but not sprints."},
+    {"kind": "scheduling", "text": "If racing, substitute the race for Q1, move the displaced Q1 to midweek, and drop Q2. Aim for 3 E days before a race and 1 E day per 3,000-4,000 meters after it (the source gives 3 E days after a 10K as its example).", "source_text": "If you include races during this marathon plan, schedule them in place of your Q1 session for that week, but perform the displaced Q1 session at midweek and drop that week’s Q2 altogether. This means a Sunday race would start the week with the race, followed by that week’s Q1 (a few days later), and the next week starts with its Q1, as normal. Try to rearrange training so you get 3 E days before a race, and take 1 E day for each 3,000 to 4,000 meters of race distance (e.g., 3 E days after a 10K)."},
+    {"kind": "volume", "text": "Weekly mileage is suggested at about 80-100% of peak P, the most mileage planned in any single program week. Row fractions are relative to that unspecified peak.", "source_text": "I typically suggest that weekly mileage vary from about 80 to 100 percent of peak (P) mileage, with P being the most mileage you plan to run in any single week of this program. For example, if you pick 40 miles as your peak weekly mileage, then, when I suggest .8 P for a week, this means you run 80 percent of 40 (32 miles) for the week. Each week’s suggested fraction of P is listed in the second column of the program."},
+    {"kind": "vdot", "text": "For M, T, I, and R training speeds, use a realistic VDOT based on a race of at least 10K, preferably longer and recent; if needed, conservatively estimate comparable race ability. The first six program weeks use the lesser of recent-race VDOT and anticipated marathon VDOT minus 2; the second six increase that value by 1; the final six increase it by another 1. Explicit row offsets are retained.", "source_text": "If you use VDOT values to determine training speeds for M, T, I, and R paces, try to be realistic, and use a VDOT that comes from a race distance of at least 10K. The longer and more recent the race, the better. If it has been a while since a race, make a conservative estimate of what you think you can race over a course of similar terrain to what you will face in training and in your marathon. For the first 6 weeks of this program, use the lesser of the VDOT values that is equal to a recent race and 2 VDOT units lower than your anticipated marathon VDOT. During the second 6 weeks of this program, increase the VDOT value by 1 unit, and for the final 6 weeks, increase another VDOT unit for determining training intensities."},
+    {"kind": "vdot", "text": "Without VDOT units, choose a realistic goal M pace; final T is 15 seconds per mile faster, I is 6 seconds per 400 meters faster than T, and R is 3 seconds per 200 meters faster than I. First-six-week paces are 10 seconds per mile (6 seconds/km) slower than goal/final paces; middle-six-week paces are within 4 seconds per mile (2.5 seconds/km) of goal/final paces, which apply in the final six weeks. The source's pace example is illustrative, not athlete-specific.", "source_text": "If not using VDOT units, choose a realistic goal M pace. Then, final T pace will be 15 seconds per mile faster than goal M pace. Final I pace will be 6 seconds per 400 meters faster than T pace. Final R pace will be 3 seconds per 200 meters faster than I pace. An example of using this method follows: Assume estimated M race pace is 6:00 per mile (3:43/km), which means your final T pace is 5:45/mile (about 86 sec/400 and 3:35/km). This makes final I pace 80 sec/400 or 3:20/km, and final R pace is 74/400 and 37/200. For the first 6 weeks, use training paces that are 10 seconds per mile (6 sec/km) slower than your goal and final paces, and for the middle 6 weeks, bring the paces to within 4 seconds per mile (2.5 sec/km) of your goal and final paces (which are then to be used during the final 6 weeks of the overall 18-week program)."},
+    {"kind": "optional", "text": "Bolded quality sessions may be eliminated when overly tired or overwhelmed and replaced by an E day.", "source_text": "I have bolded some quality sessions, which means if you feel overly tired or overwhelmed, the bolded session may be eliminated and replaced by an E day of training."},
+    {"kind": "other", "text": "The framework covers 41 miles (66 km) to about 55 miles (89 km) weekly. Bare quantities before an intensity are miles; quantities explicitly marked min are durations in minutes.", "source_text": "Table below shows programs for runners who are running from 41 miles (66 km) per week to about 55 miles (89 km) per week. I have bolded some quality sessions, which means if you feel overly tired or overwhelmed, the bolded session may be eliminated and replaced by an E day of training. The number listed before the training intensity is the number of miles that should be completed at that intensity. For example, 3 E means 3 miles at easy pace, 4 M means 4 miles at marathon pace, and 1 T means 1 mile at threshold pace."}
   ],
   "entries": [
-    {
-      "at": {"unit": "week", "before_race": 18},
-      "peak_fraction": 0.8,
-      "vdot_offset": -2,
-      "source_text": "18w | .8 | Q1 = 4 E + 8 M + 1 T + 1 E (a nonstop workout), Q2 = 8 E + 2 × (2 T w/2 min rests) + 1 T + 2 E | -2",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 4 E + 8 M + 1 T + 1 E (a nonstop workout)", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 6.437376, "max": 6.437376}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 8 E + 2 × (2 T w/2 min rests) + 1 T + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "repeat", "count": 2, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 17},
-      "peak_fraction": 0.8,
-      "vdot_offset": -2,
-      "source_text": "17w | .8 | Q1 = 2 E + 3 T + 40 min E + 2 T + 1 E, Q2 = 6 E + 5 × (3 min I w/2 min jg recoveries) + 6 × (1 min R w/2 min jg) | -2",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": true, "source_text": "Q1 = 2 E + 3 T + 40 min E + 2 T + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 4.828032, "max": 4.828032}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 40, "max": 40}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 6 E + 5 × (3 min I w/2 min jg recoveries) + 6 × (1 min R w/2 min jg) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "repeat", "count": 5, "steps": [{"type": "run", "intensity": "I", "amount": {"unit": "min", "min": 3, "max": 3}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "repeat", "count": 6, "steps": [{"type": "run", "intensity": "R", "amount": {"unit": "min", "min": 1, "max": 1}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 16},
-      "peak_fraction": 0.9,
-      "vdot_offset": -2,
-      "source_text": "16w | .9 | Q1 = steady E run of 90-120 min, Q2 = 6 E + 2 T + 2 min E + 2 T + 2 min E + 1 T + 2 E | -2",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = steady E run of 90-120 min", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 90, "max": 120}}]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 6 E + 2 T + 2 min E + 2 T + 2 min E + 1 T + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 2, "max": 2}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 2, "max": 2}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 15},
-      "peak_fraction": 0.9,
-      "vdot_offset": -2,
-      "source_text": "15w | .9 | Q1 = 2 E + 8 M + 1 E + 2 M + 2 E, Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E | -2",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 2 E + 8 M + 1 E + 2 M + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": true, "source_text": "Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 40, "max": 40}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 14},
-      "peak_fraction": 0.9,
-      "vdot_offset": -2,
-      "source_text": "14w | .9 | Q1 = 1 E + 2 × (2 T w/2 min rests) + 60 min E + 1 T + 1 E, Q2 = 6 E + 5 × (4 min I w/3 min jg recoveries) + 2 E | -2",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 1 E + 2 × (2 T w/2 min rests) + 60 min E + 1 T + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "repeat", "count": 2, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 60, "max": 60}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 6 E + 5 × (4 min I w/3 min jg recoveries) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "repeat", "count": 5, "steps": [{"type": "run", "intensity": "I", "amount": {"unit": "min", "min": 4, "max": 4}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 3, "max": 3}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 13},
-      "peak_fraction": 0.9,
-      "vdot_offset": -2,
-      "source_text": "13w | .9 | Q1= steady E run of 100-120 min, Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E | -2",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1= steady E run of 100-120 min", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 100, "max": 120}}]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 40, "max": 40}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 12},
-      "peak_fraction": 1.0,
-      "vdot_offset": -1,
-      "source_text": "12w | 1.0 | Q1 = 2 E + 6 M + 1 E + 6 M + 1 E, Q2 = 6 E + 3 T + 3 min E + 2 T + 2 min E + 1 T + 2 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 2 E + 6 M + 1 E + 6 M + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": true, "source_text": "Q2 = 6 E + 3 T + 3 min E + 2 T + 2 min E + 1 T + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 4.828032, "max": 4.828032}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 3, "max": 3}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 2, "max": 2}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 11},
-      "peak_fraction": 0.9,
-      "vdot_offset": -1,
-      "source_text": "11w | .9 | Q1 = 10 E + 2 × (2 T w/2 min rests) + 2 E, Q2 = 8 E + 5 × (3 min I w/2 min jg) + 6 × (1 min R w/2 min jg) + 2 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 10 E + 2 × (2 T w/2 min rests) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 16.09344, "max": 16.09344}},
-          {"type": "repeat", "count": 2, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 8 E + 5 × (3 min I w/2 min jg) + 6 × (1 min R w/2 min jg) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "repeat", "count": 5, "steps": [{"type": "run", "intensity": "I", "amount": {"unit": "min", "min": 3, "max": 3}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "repeat", "count": 6, "steps": [{"type": "run", "intensity": "R", "amount": {"unit": "min", "min": 1, "max": 1}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 10},
-      "peak_fraction": 1.0,
-      "vdot_offset": -1,
-      "source_text": "10w | 1.0 | Q1 = steady E run of 120 min, Q2 = 2 E + 12 M + 2 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = steady E run of 120 min", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 120, "max": 120}}]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 2 E + 12 M + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 19.312128, "max": 19.312128}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 9},
-      "peak_fraction": 1.0,
-      "vdot_offset": -1,
-      "source_text": "9w | 1.0 | Q1 = 2 E + 6 M + 1 E + 4 M + 1 T + 1 E, Q2 = 5 E + 3 × (2 T w/2 min rests) + 1 T + 2 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": true, "source_text": "Q1 = 2 E + 6 M + 1 E + 4 M + 1 T + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 6.437376, "max": 6.437376}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 5 E + 3 × (2 T w/2 min rests) + 1 T + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 8.04672, "max": 8.04672}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 8},
-      "peak_fraction": 0.9,
-      "vdot_offset": -1,
-      "source_text": "8w | .9 | Q1 = 60 min E + 8 M + 1 E, Q2 = 8 E + 4 × (4 min I w/3 min recovery jg) + 3 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 60 min E + 8 M + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 60, "max": 60}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 8 E + 4 × (4 min I w/3 min recovery jg) + 3 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "repeat", "count": 4, "steps": [{"type": "run", "intensity": "I", "amount": {"unit": "min", "min": 4, "max": 4}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 3, "max": 3}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 4.828032, "max": 4.828032}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 7},
-      "peak_fraction": 0.9,
-      "vdot_offset": -1,
-      "source_text": "7w | .9 | Q1 = steady E run of 120-150 min, Q2 = 2 E + 8 M + 3 × (1 T w/1 min recovery between) + 2 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = steady E run of 120-150 min", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 120, "max": 150}}]},
-        {"id": "Q2", "kind": "quality", "optional": true, "source_text": "Q2 = 2 E + 8 M + 3 × (1 T w/1 min recovery between) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}], "recovery": {"placement": "between", "step": {"type": "recovery", "mode": "unspecified", "intensity": null, "amount": {"unit": "min", "min": 1, "max": 1}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 6},
-      "peak_fraction": 1.0,
-      "vdot_offset": -1,
-      "source_text": "6w | 1.0 | Q1 = 2 E + 14 M + 1 E, Q2 = 60 min E + 3 × (2 T w/2 min rests) + 1 T + 1 E | -1",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 2 E + 14 M + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 22.530816, "max": 22.530816}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 60 min E + 3 × (2 T w/2 min rests) + 1 T + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 60, "max": 60}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 5},
-      "peak_fraction": 1.0,
-      "vdot_offset": 0,
-      "source_text": "5w | 1.0 | Q1 = 2 E + 3 T + 60 min E + 2 T + 2 E, Q2 = 8 E + 5 × (3 min I w/2 min E) + 4 × (1 min R w/2 min jg) + 3 E | 0",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": true, "source_text": "Q1 = 2 E + 3 T + 60 min E + 2 T + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 4.828032, "max": 4.828032}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 60, "max": 60}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 8 E + 5 × (3 min I w/2 min E) + 4 × (1 min R w/2 min jg) + 3 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "repeat", "count": 5, "steps": [{"type": "run", "intensity": "I", "amount": {"unit": "min", "min": 3, "max": 3}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "easy", "intensity": "E", "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "repeat", "count": 4, "steps": [{"type": "run", "intensity": "R", "amount": {"unit": "min", "min": 1, "max": 1}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "jog", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 4.828032, "max": 4.828032}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 4},
-      "peak_fraction": 0.9,
-      "vdot_offset": 0,
-      "source_text": "4w | .9 | Q1 = steady E run of 150 min, Q2 = 6 E + 5 × (3 min I w/2 min E) + 4 E | 0",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = steady E run of 150 min", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 150, "max": 150}}]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 6 E + 5 × (3 min I w/2 min E) + 4 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "repeat", "count": 5, "steps": [{"type": "run", "intensity": "I", "amount": {"unit": "min", "min": 3, "max": 3}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "easy", "intensity": "E", "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 6.437376, "max": 6.437376}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 3},
-      "peak_fraction": 0.9,
-      "vdot_offset": 0,
-      "source_text": "3w | .9 | Q1 = 1 E + 8 M + 1 E + 6 M + 1 E, Q2 = 4 E + 2 × (2 T w/2 min rests) + 3 × (1 T w/1 min rests) + 2 E | 0",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 1 E + 8 M + 1 E + 6 M + 1 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 12.874752, "max": 12.874752}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 9.656064, "max": 9.656064}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": true, "source_text": "Q2 = 4 E + 2 × (2 T w/2 min rests) + 3 × (1 T w/1 min rests) + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 6.437376, "max": 6.437376}},
-          {"type": "repeat", "count": 2, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 1, "max": 1}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "week", "before_race": 2},
-      "peak_fraction": 0.9,
-      "vdot_offset": 0,
-      "source_text": "2w | .9 | Q1 = 1 E + 3 × (2 T w/2 min E recoveries) + 60 min E, Q2 = 4 E + 1 T + 2 M + 1 E + 1 T + 2 M + 2 E | 0",
-      "sessions": [
-        {"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 1 E + 3 × (2 T w/2 min E recoveries) + 60 min E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "easy", "intensity": "E", "amount": {"unit": "min", "min": 2, "max": 2}}}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 60, "max": 60}}
-        ]},
-        {"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 4 E + 1 T + 2 M + 1 E + 1 T + 2 M + 2 E", "steps": [
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 6.437376, "max": 6.437376}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}},
-          {"type": "run", "intensity": "M", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-          {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-        ]}
-      ]
-    },
-    {
-      "at": {"unit": "day", "before_race": 7},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "7d | - | Q1 = 90 min E | 0",
-      "sessions": [{"id": "Q1", "kind": "quality", "optional": false, "source_text": "Q1 = 90 min E", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 90, "max": 90}}]}]
-    },
-    {
-      "at": {"unit": "day", "before_race": 6},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "6d | - | 60 min E | 0",
-      "sessions": [{"id": "S1", "kind": "support", "optional": false, "source_text": "60 min E", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 60, "max": 60}}]}]
-    },
-    {
-      "at": {"unit": "day", "before_race": 5},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "5d | - | Q2 = 2 E + 3 × (1 T w/2 min rests) + 2 E | 0",
-      "sessions": [{"id": "Q2", "kind": "quality", "optional": false, "source_text": "Q2 = 2 E + 3 × (1 T w/2 min rests) + 2 E", "steps": [
-        {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}},
-        {"type": "repeat", "count": 3, "steps": [{"type": "run", "intensity": "T", "amount": {"unit": "km", "min": 1.609344, "max": 1.609344}}], "recovery": {"placement": "unspecified", "step": {"type": "recovery", "mode": "rest", "intensity": null, "amount": {"unit": "min", "min": 2, "max": 2}}}},
-        {"type": "run", "intensity": "E", "amount": {"unit": "km", "min": 3.218688, "max": 3.218688}}
-      ]}]
-    },
-    {
-      "at": {"unit": "day", "before_race": 4},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "4d | - | 50 min E | 0",
-      "sessions": [{"id": "S1", "kind": "support", "optional": false, "source_text": "50 min E", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 50, "max": 50}}]}]
-    },
-    {
-      "at": {"unit": "day", "before_race": 3},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "3d | - | 30-40 min E | 0",
-      "sessions": [{"id": "S1", "kind": "support", "optional": false, "source_text": "30-40 min E", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 30, "max": 40}}]}]
-    },
-    {
-      "at": {"unit": "day", "before_race": 2},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "2d | - | 0-20 min E | 0",
-      "sessions": [{"id": "S1", "kind": "support", "optional": false, "source_text": "0-20 min E", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 0, "max": 20}}]}]
-    },
-    {
-      "at": {"unit": "day", "before_race": 1},
-      "peak_fraction": null,
-      "vdot_offset": 0,
-      "source_text": "1d | - | 20-30 min E (tomorrow is the race) | 0",
-      "sessions": [{"id": "S1", "kind": "support", "optional": false, "source_text": "20-30 min E (tomorrow is the race)", "steps": [{"type": "run", "intensity": "E", "amount": {"unit": "min", "min": 20, "max": 30}}]}]
-    }
+    {"at":{"unit":"week","before_race":18},"peak_fraction":0.8,"vdot_offset":-2,"source_text":"18w | .8 | Q1 = 4 E + 8 M + 1 T + 1 E (a nonstop workout), Q2 = 8 E + 2 × (2 T w/2 min rests) + 1 T + 2 E | -2","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 4 E + 8 M + 1 T + 1 E (a nonstop workout)","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":6.437376,"max":6.437376}},{"type":"run","intensity":"M","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 8 E + 2 × (2 T w/2 min rests) + 1 T + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"repeat","count":2,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":17},"peak_fraction":0.8,"vdot_offset":-2,"source_text":"17w | .8 | Q1 = 2 E + 3 T + 40 min E + 2 T + 1 E, Q2 = 6 E + 5 × (3 min I w/2 min jg recoveries) + 6 × (1 min R w/2 min jg) + 2 E | -2","sessions":[
+      {"id":"Q1","kind":"quality","optional":true,"source_text":"Q1 = 2 E + 3 T + 40 min E + 2 T + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"T","amount":{"unit":"km","min":4.828032,"max":4.828032}},{"type":"run","intensity":"E","amount":{"unit":"min","min":40,"max":40}},{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 6 E + 5 × (3 min I w/2 min jg recoveries) + 6 × (1 min R w/2 min jg) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"repeat","count":5,"steps":[{"type":"run","intensity":"I","amount":{"unit":"min","min":3,"max":3}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"repeat","count":6,"steps":[{"type":"run","intensity":"R","amount":{"unit":"min","min":1,"max":1}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":16},"peak_fraction":0.9,"vdot_offset":-2,"source_text":"16w | .9 | Q1 = steady E run of 90-120 min, Q2 = 6 E + 2 T + 2 min E + 2 T + 2 min E + 1 T + 2 E | -2","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = steady E run of 90-120 min","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":90,"max":120}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 6 E + 2 T + 2 min E + 2 T + 2 min E + 1 T + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"min","min":2,"max":2}},{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"min","min":2,"max":2}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":15},"peak_fraction":0.9,"vdot_offset":-2,"source_text":"15w | .9 | Q1 = 2 E + 8 M + 1 E + 2 M + 2 E, Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E | -2","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 2 E + 8 M + 1 E + 2 M + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"M","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]},
+      {"id":"Q2","kind":"quality","optional":true,"source_text":"Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":40,"max":40}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":14},"peak_fraction":0.9,"vdot_offset":-2,"source_text":"14w | .9 | Q1 = 1 E + 2 × (2 T w/2 min rests) + 60 min E + 1 T + 1 E, Q2 = 6 E + 5 × (4 min I w/3 min jg recoveries) + 2 E | -2","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 1 E + 2 × (2 T w/2 min rests) + 60 min E + 1 T + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"repeat","count":2,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"min","min":60,"max":60}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 6 E + 5 × (4 min I w/3 min jg recoveries) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"repeat","count":5,"steps":[{"type":"run","intensity":"I","amount":{"unit":"min","min":4,"max":4}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":3,"max":3}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":13},"peak_fraction":0.9,"vdot_offset":-2,"source_text":"13w | .9 | Q1= steady E run of 100-120 min, Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E | -2","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1= steady E run of 100-120 min","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":100,"max":120}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 40 min E + 3 × (2 T w/2 min rests) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":40,"max":40}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":12},"peak_fraction":1.0,"vdot_offset":-1,"source_text":"12w | 1.0 | Q1 = 2 E + 6 M + 1 E + 6 M + 1 E, Q2 = 6 E + 3 T + 3 min E + 2 T + 2 min E + 1 T + 2 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 2 E + 6 M + 1 E + 6 M + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"M","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":true,"source_text":"Q2 = 6 E + 3 T + 3 min E + 2 T + 2 min E + 1 T + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"run","intensity":"T","amount":{"unit":"km","min":4.828032,"max":4.828032}},{"type":"run","intensity":"E","amount":{"unit":"min","min":3,"max":3}},{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"min","min":2,"max":2}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":11},"peak_fraction":0.9,"vdot_offset":-1,"source_text":"11w | .9 | Q1 = 10 E + 2 × (2 T w/2 min rests) + 2 E, Q2 = 8 E + 5 × (3 min I w/2 min jg) + 6 × (1 min R w/2 min jg) + 2 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 10 E + 2 × (2 T w/2 min rests) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":16.09344,"max":16.09344}},{"type":"repeat","count":2,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 8 E + 5 × (3 min I w/2 min jg) + 6 × (1 min R w/2 min jg) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"repeat","count":5,"steps":[{"type":"run","intensity":"I","amount":{"unit":"min","min":3,"max":3}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"repeat","count":6,"steps":[{"type":"run","intensity":"R","amount":{"unit":"min","min":1,"max":1}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":10},"peak_fraction":1.0,"vdot_offset":-1,"source_text":"10w | 1.0 | Q1 = steady E run of 120 min, Q2 = 2 E + 12 M + 2 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = steady E run of 120 min","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":120,"max":120}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 2 E + 12 M + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"M","amount":{"unit":"km","min":19.312128,"max":19.312128}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":9},"peak_fraction":1.0,"vdot_offset":-1,"source_text":"9w | 1.0 | Q1 = 2 E + 6 M + 1 E + 4 M + 1 T + 1 E, Q2 = 5 E + 3 × (2 T w/2 min rests) + 1 T + 2 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":true,"source_text":"Q1 = 2 E + 6 M + 1 E + 4 M + 1 T + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"M","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":6.437376,"max":6.437376}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 5 E + 3 × (2 T w/2 min rests) + 1 T + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":8.04672,"max":8.04672}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":8},"peak_fraction":0.9,"vdot_offset":-1,"source_text":"8w | .9 | Q1 = 60 min E + 8 M + 1 E, Q2 = 8 E + 4 × (4 min I w/3 min recovery jg) + 3 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 60 min E + 8 M + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":60,"max":60}},{"type":"run","intensity":"M","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 8 E + 4 × (4 min I w/3 min recovery jg) + 3 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"repeat","count":4,"steps":[{"type":"run","intensity":"I","amount":{"unit":"min","min":4,"max":4}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":3,"max":3}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":4.828032,"max":4.828032}}]}
+    ]},
+    {"at":{"unit":"week","before_race":7},"peak_fraction":0.9,"vdot_offset":-1,"source_text":"7w | .9 | Q1 = steady E run of 120-150 min, Q2 = 2 E + 8 M + 3 × (1 T w/1 min recovery between) + 2 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = steady E run of 120-150 min","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":120,"max":150}}]},
+      {"id":"Q2","kind":"quality","optional":true,"source_text":"Q2 = 2 E + 8 M + 3 × (1 T w/1 min recovery between) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"M","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}}],"recovery":{"placement":"between","step":{"type":"recovery","mode":"unspecified","intensity":null,"amount":{"unit":"min","min":1,"max":1}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":6},"peak_fraction":1.0,"vdot_offset":-1,"source_text":"6w | 1.0 | Q1 = 2 E + 14 M + 1 E, Q2 = 60 min E + 3 × (2 T w/2 min rests) + 1 T + 1 E | -1","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 2 E + 14 M + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"M","amount":{"unit":"km","min":22.530816,"max":22.530816}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 60 min E + 3 × (2 T w/2 min rests) + 1 T + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":60,"max":60}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]}
+    ]},
+    {"at":{"unit":"week","before_race":5},"peak_fraction":1.0,"vdot_offset":0,"source_text":"5w | 1.0 | Q1 = 2 E + 3 T + 60 min E + 2 T + 2 E, Q2 = 8 E + 5 × (3 min I w/2 min E) + 4 × (1 min R w/2 min jg) + 3 E | 0","sessions":[
+      {"id":"Q1","kind":"quality","optional":true,"source_text":"Q1 = 2 E + 3 T + 60 min E + 2 T + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"T","amount":{"unit":"km","min":4.828032,"max":4.828032}},{"type":"run","intensity":"E","amount":{"unit":"min","min":60,"max":60}},{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 8 E + 5 × (3 min I w/2 min E) + 4 × (1 min R w/2 min jg) + 3 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"repeat","count":5,"steps":[{"type":"run","intensity":"I","amount":{"unit":"min","min":3,"max":3}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"easy","intensity":"E","amount":{"unit":"min","min":2,"max":2}}}},{"type":"repeat","count":4,"steps":[{"type":"run","intensity":"R","amount":{"unit":"min","min":1,"max":1}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"jog","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":4.828032,"max":4.828032}}]}
+    ]},
+    {"at":{"unit":"week","before_race":4},"peak_fraction":0.9,"vdot_offset":0,"source_text":"4w | .9 | Q1 = steady E run of 150 min, Q2 = 6 E + 5 × (3 min I w/2 min E) + 4 E | 0","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = steady E run of 150 min","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":150,"max":150}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 6 E + 5 × (3 min I w/2 min E) + 4 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"repeat","count":5,"steps":[{"type":"run","intensity":"I","amount":{"unit":"min","min":3,"max":3}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"easy","intensity":"E","amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":6.437376,"max":6.437376}}]}
+    ]},
+    {"at":{"unit":"week","before_race":3},"peak_fraction":0.9,"vdot_offset":0,"source_text":"3w | .9 | Q1 = 1 E + 8 M + 1 E + 6 M + 1 E, Q2 = 4 E + 2 × (2 T w/2 min rests) + 3 × (1 T w/1 min rests) + 2 E | 0","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 1 E + 8 M + 1 E + 6 M + 1 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":12.874752,"max":12.874752}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":9.656064,"max":9.656064}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}}]},
+      {"id":"Q2","kind":"quality","optional":true,"source_text":"Q2 = 4 E + 2 × (2 T w/2 min rests) + 3 × (1 T w/1 min rests) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":6.437376,"max":6.437376}},{"type":"repeat","count":2,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":1,"max":1}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"week","before_race":2},"peak_fraction":0.9,"vdot_offset":0,"source_text":"2w | .9 | Q1 = 1 E + 3 × (2 T w/2 min E recoveries) + 60 min E, Q2 = 4 E + 1 T + 2 M + 1 E + 1 T + 2 M + 2 E | 0","sessions":[
+      {"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 1 E + 3 × (2 T w/2 min E recoveries) + 60 min E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":3.218688,"max":3.218688}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"easy","intensity":"E","amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"min","min":60,"max":60}}]},
+      {"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 4 E + 1 T + 2 M + 1 E + 1 T + 2 M + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":6.437376,"max":6.437376}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}},{"type":"run","intensity":"M","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}
+    ]},
+    {"at":{"unit":"day","before_race":7},"peak_fraction":null,"vdot_offset":0,"source_text":"7d | - | Q1 = 90 min E | 0","sessions":[{"id":"Q1","kind":"quality","optional":false,"source_text":"Q1 = 90 min E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":90,"max":90}}]}]},
+    {"at":{"unit":"day","before_race":6},"peak_fraction":null,"vdot_offset":0,"source_text":"6d | - | 60 min E | 0","sessions":[{"id":"S1","kind":"support","optional":false,"source_text":"60 min E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":60,"max":60}}]}]},
+    {"at":{"unit":"day","before_race":5},"peak_fraction":null,"vdot_offset":0,"source_text":"5d | - | Q2 = 2 E + 3 × (1 T w/2 min rests) + 2 E | 0","sessions":[{"id":"Q2","kind":"quality","optional":false,"source_text":"Q2 = 2 E + 3 × (1 T w/2 min rests) + 2 E","steps":[{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}},{"type":"repeat","count":3,"steps":[{"type":"run","intensity":"T","amount":{"unit":"km","min":1.609344,"max":1.609344}}],"recovery":{"placement":"after_each","step":{"type":"recovery","mode":"rest","intensity":null,"amount":{"unit":"min","min":2,"max":2}}}},{"type":"run","intensity":"E","amount":{"unit":"km","min":3.218688,"max":3.218688}}]}]},
+    {"at":{"unit":"day","before_race":4},"peak_fraction":null,"vdot_offset":0,"source_text":"4d | - | 50 min E | 0","sessions":[{"id":"S1","kind":"support","optional":false,"source_text":"50 min E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":50,"max":50}}]}]},
+    {"at":{"unit":"day","before_race":3},"peak_fraction":null,"vdot_offset":0,"source_text":"3d | - | 30-40 min E | 0","sessions":[{"id":"S1","kind":"support","optional":false,"source_text":"30-40 min E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":30,"max":40}}]}]},
+    {"at":{"unit":"day","before_race":2},"peak_fraction":null,"vdot_offset":0,"source_text":"2d | - | 0-20 min E | 0","sessions":[{"id":"S1","kind":"support","optional":false,"source_text":"0-20 min E","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":0,"max":20}}]}]},
+    {"at":{"unit":"day","before_race":1},"peak_fraction":null,"vdot_offset":0,"source_text":"1d | - | 20-30 min E (tomorrow is the race) | 0","sessions":[{"id":"S1","kind":"support","optional":false,"source_text":"20-30 min E (tomorrow is the race)","steps":[{"type":"run","intensity":"E","amount":{"unit":"min","min":20,"max":30}}]}]}
   ],
   "issues": [
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/0/sessions/1/steps/1/recovery", "source_text": "2 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/1/sessions/1/steps/1/recovery", "source_text": "5 × (3 min I w/2 min jg recoveries)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/1/sessions/1/steps/2/recovery", "source_text": "6 × (1 min R w/2 min jg)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/3/sessions/1/steps/1/recovery", "source_text": "3 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/4/sessions/0/steps/1/recovery", "source_text": "2 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/4/sessions/1/steps/1/recovery", "source_text": "5 × (4 min I w/3 min jg recoveries)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/5/sessions/1/steps/1/recovery", "source_text": "3 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/7/sessions/0/steps/1/recovery", "source_text": "2 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/7/sessions/1/steps/1/recovery", "source_text": "5 × (3 min I w/2 min jg)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/7/sessions/1/steps/2/recovery", "source_text": "6 × (1 min R w/2 min jg)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/9/sessions/1/steps/1/recovery", "source_text": "3 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/10/sessions/1/steps/1/recovery", "source_text": "4 × (4 min I w/3 min recovery jg)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "warning", "code": "ambiguous_recovery", "path": "/entries/11/sessions/1/steps/2/recovery/step/mode", "source_text": "1 min recovery between", "message": "The placement is explicitly between repetitions, but the recovery mode is unspecified in the source."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/12/sessions/1/steps/1/recovery", "source_text": "3 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/13/sessions/1/steps/1/recovery", "source_text": "5 × (3 min I w/2 min E)", "message": "Recovery duration and easy intensity are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/13/sessions/1/steps/2/recovery", "source_text": "4 × (1 min R w/2 min jg)", "message": "Recovery duration and jog mode are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/14/sessions/1/steps/1/recovery", "source_text": "5 × (3 min I w/2 min E)", "message": "Recovery duration and easy intensity are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/15/sessions/1/steps/1/recovery", "source_text": "2 × (2 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/15/sessions/1/steps/2/recovery", "source_text": "3 × (1 T w/1 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/16/sessions/0/steps/1/recovery", "source_text": "3 × (2 T w/2 min E recoveries)", "message": "Recovery duration and easy intensity are given, but placement is not; confirm whether the final recovery is included."},
-    {"severity": "blocking", "code": "ambiguous_recovery", "path": "/entries/19/sessions/0/steps/1/recovery", "source_text": "3 × (1 T w/2 min rests)", "message": "Recovery duration is given, but placement is not; confirm whether recovery follows only between repetitions or after every repetition."},
-    {"severity": "warning", "code": "source_artifact", "path": "/title", "source_text": "Title says 66-89 km; body says 41 miles (64 km) to about 55 miles (98 km) per week.", "message": "The title and body give inconsistent weekly mileage ranges; both source statements are preserved without choosing one."},
-    {"severity": "warning", "code": "vdot_conflict", "path": "/entries/12/vdot_offset", "source_text": "6w row gives VDOT correction -1; prose says increase the first-six-week value by 1 for the second six weeks and by another 1 for the final six weeks.", "message": "The explicit 6w row offset -1 is retained. The phase prose implies offset 0 for the final six weeks, so the row and prose conflict."}
+    {"severity":"warning","code":"ambiguous_recovery","path":"/entries/11/sessions/1/steps/2/recovery/step/mode","source_text":"1 min recovery between","message":"Recovery placement is explicitly between repetitions, but its mode is not specified in the source."},
+    {"severity":"warning","code":"vdot_conflict","path":"/entries/12/vdot_offset","source_text":"The 6w row gives VDOT correction -1, while the phase prose says to increase the second-six-week value by another 1 for the final six weeks.","message":"Retained the explicit 6w row offset -1. The prose implies 0 for the final six weeks, so the row and prose conflict."}
   ]
 }

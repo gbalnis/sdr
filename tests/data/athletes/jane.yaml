@@ -1,0 +1,16 @@
+name: Jane
+birthdate: 1970-01-01   # use to calculate age
+performances:           # use to calculate VDOT
+  - date: 2025-05-25
+    event: half marathon
+    time: 1:43:11
+  - date: 2024-10-27
+    event: half marathon
+    time: 1:41:52
+  - date: 2022-10-16
+    event: half marathon
+    time: 1:40:00
+preferences:
+  - restDays: Monday  # don't schedule runs on these days unless it violates training methodology
+  - units: metric
+  - peakWeek: 75 km # maximum weekly mileage during training

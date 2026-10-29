@@ -2,6 +2,7 @@
 name: sdr-normalize-framework
 description: 'Normalize an unstructured running training framework into athlete-independent, race-relative weekly or daily sessions. Use when: coach.normalize-framework, importing a training framework, interpreting loose workout descriptions, extracting Q1/Q2/Q3 sessions, converting imperial distances to metric and durations to minutes, or preserving framework VDOT corrections for downstream planning.'
 argument-hint: 'Framework text or path, optionally an output path'
+allowed-tools: node
 ---
 
 # Normalize Training Framework
@@ -28,8 +29,9 @@ producing output. The result is a framework, not an athlete's training plan.
 4. **Parse each session into ordered steps.** Preserve warm-up, work, recoveries,
    and cool-down in their original order. Represent repetitions structurally,
    including nested groups and whether recovery occurs between repetitions or
-   after every repetition. Never multiply a per-repetition quantity twice. Do not
-   add warm-ups, cool-downs, or recoveries that were not supplied.
+   after every repetition. Unless stated otherwise, for repetitions plan recovery 
+   after each repetition, including the last one. Do not add warm-ups, cool-downs, 
+   or recoveries that were not supplied.
 5. **Normalize quantities and intensities.** Use kilometres and minutes only;
    preserve ranges and zero lower bounds. Convert miles with exactly 1.609344 km
    per mile, metres by dividing by 1000, seconds by 60, and hours by multiplying
