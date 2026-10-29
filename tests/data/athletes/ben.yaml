@@ -1,0 +1,13 @@
+name: Ben
+birthdate: 1970-01-01   # use to calculate age
+performances:           # use to calculate VDOT
+  - date: 2026-05-10
+    event: half marathon
+    time: 1:39:13
+  - date: 2025-10-25
+    event: marathon
+    time: 3:40:09
+preferences:
+  - restDays: Monday  # don't schedule runs on these days unless it violates training methodology
+  - units: metric
+  - peakWeek: 88 km # maximum weekly mileage during training
