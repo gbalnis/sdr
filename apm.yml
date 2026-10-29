@@ -1,5 +1,5 @@
 name: sdr
-version: 1.4.0
+version: 1.5.0
 description: Spec-Driven Running
 author: Greg Balnis
 # Which agent platforms to deploy to.
@@ -7,8 +7,17 @@ author: Greg Balnis
 # Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-bot, grok-build, hermes, kiro, opencode, vscode, windsurf
 targets:
 - copilot
+- vscode
 dependencies:
   apm: []
-  mcp: []
+  mcp: 
+    - name: intervals-icu-mcp
+      registry: false
+      transport: stdio
+      command: uvx
+      args: ["intervals-icu-mcp"]
+      env: {
+        "ENV_FILE": "/workspaces/sdr/.env"
+      }
 includes: auto
 scripts: {}

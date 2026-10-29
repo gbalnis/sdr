@@ -145,6 +145,30 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:fe4d33b04182f055dc7f5e53bad383a878fe63edc4811698ea0953b87c5f39ae
+- kind: uri
+  target: mcp
+  value: intervals-icu-mcp
+  runtime: vscode
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+mcp_servers:
+- intervals-icu-mcp
+mcp_configs:
+  intervals-icu-mcp:
+    name: intervals-icu-mcp
+    transport: stdio
+    env:
+      ENV_FILE: /workspaces/sdr/.env
+    args:
+    - intervals-icu-mcp
+    registry: false
+    command: uvx
+mcp_target_servers:
+  vscode:
+  - intervals-icu-mcp
 local_deployed_files:
 - .agents/skills/sdr-calculate-intensity
 - .agents/skills/sdr-calculate-intensity/SKILL.md
