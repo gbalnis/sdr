@@ -1,0 +1,1219 @@
+{
+  "schema_version": 1,
+  "title": "Pete Pfitzinger Marathon Training Program (up to 88 km)",
+  "source": {
+    "label": "tests/data/inputs/Pfitz_88k.md",
+    "input_units": "metric"
+  },
+  "ready": true,
+  "rules": [],
+  "entries": [
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 18
+      },
+      "peak_fraction": 0.6,
+      "vdot_offset": 0,
+      "source_text": "| 18w | .6 | Q1 = 7 E + 6 T, Q2 = 19 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 7 E + 6 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 7,
+                "max": 7
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 6,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 19 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 19,
+                "max": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 17
+      },
+      "peak_fraction": 0.67,
+      "vdot_offset": 0,
+      "source_text": "| 17w | .67 | Q1 = 8 E + 13 M | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 8 E + 13 M",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "amount": {
+                "unit": "km",
+                "min": 13,
+                "max": 13
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 16
+      },
+      "peak_fraction": 0.73,
+      "vdot_offset": 0,
+      "source_text": "| 16w | .73 | Q1 = 7 E + 6 T, Q2 = 23 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 7 E + 6 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 7,
+                "max": 7
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 6,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 23 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 23,
+                "max": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 15
+      },
+      "peak_fraction": 0.77,
+      "vdot_offset": 0,
+      "source_text": "| 15w | .77 | Q1 = 24 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 24 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 24,
+                "max": 24
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 14
+      },
+      "peak_fraction": 0.82,
+      "vdot_offset": 0,
+      "source_text": "| 14w | .82 | Q1 = 6 E + 8 T, Q2 = 10 E + 16 M | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 6 E + 8 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 6,
+                "max": 6
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 10 E + 16 M",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "amount": {
+                "unit": "km",
+                "min": 16,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 13
+      },
+      "peak_fraction": 0.68,
+      "vdot_offset": 0,
+      "source_text": "| 13w | .68 | Q1 = 19 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 19 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 19,
+                "max": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 12
+      },
+      "peak_fraction": 0.91,
+      "vdot_offset": 0,
+      "source_text": "| 12w | .91 | Q1 = 8 E + 8 T, Q2 = 18 E, Q3 = 29 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 8 E + 8 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 18 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 18,
+                "max": 18
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q3",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q3 = 29 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 29,
+                "max": 29
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 11
+      },
+      "peak_fraction": 0.99,
+      "vdot_offset": 0,
+      "source_text": "| 11w | .99 | Q1 = 19 E, Q2 = 6 E + 10 T, Q3 = 32 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 19 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 19,
+                "max": 19
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 6 E + 10 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 6,
+                "max": 6
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q3",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q3 = 32 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 32,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 10
+      },
+      "peak_fraction": 0.9,
+      "vdot_offset": 0,
+      "source_text": "| 10w | .9 | Q1 = 23 E, Q2 = 7 E + 19 M | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 23 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 23,
+                "max": 23
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 7 E + 19 M",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 7,
+                "max": 7
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "amount": {
+                "unit": "km",
+                "min": 19,
+                "max": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 9
+      },
+      "peak_fraction": 0.78,
+      "vdot_offset": 0,
+      "source_text": "| 9w | .78 | Q1 = 8 E + 5 × 0.8 R, Q2 = 23 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 8 E + 5 × 0.8 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.8,
+                    "max": 0.8
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.6,
+                    "max": 0.6
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 23 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 23,
+                "max": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 8
+      },
+      "peak_fraction": 1,
+      "vdot_offset": 0,
+      "source_text": "| 8w | 1.0 | Q1 = 7 E + 11 T, Q2 = 32 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 7 E + 11 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 7,
+                "max": 7
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 11,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 32 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 32,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 7
+      },
+      "peak_fraction": 1,
+      "vdot_offset": 0,
+      "source_text": "| 7w | 1.0 | Q1 = 10 E + 5 × 0.6 R, Q2 = 10 T, Q3 = 27 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 10 E + 5 × 0.6 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.6,
+                    "max": 0.6
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.45,
+                    "max": 0.45
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 10 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q3",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q3 = 27 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 27,
+                "max": 27
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 6
+      },
+      "peak_fraction": 0.95,
+      "vdot_offset": 0,
+      "source_text": "| 6w | .95 | Q1 = 9 E + 5 × 1 R, Q2 = 6 E + 23 M | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 9 E + 5 × 1 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 9,
+                "max": 9
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.75,
+                    "max": 0.75
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 6 E + 23 M",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 6,
+                "max": 6
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "amount": {
+                "unit": "km",
+                "min": 23,
+                "max": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 5
+      },
+      "peak_fraction": 0.97,
+      "vdot_offset": 0,
+      "source_text": "| 5w | .97 | Q1 = 10 E + 5 × 0.6 R, Q2 = 10 T, Q3 = 27 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 10 E + 5 × 0.6 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.6,
+                    "max": 0.6
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.45,
+                    "max": 0.45
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 10 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q3",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q3 = 27 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 27,
+                "max": 27
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 4
+      },
+      "peak_fraction": 0.96,
+      "vdot_offset": 0,
+      "source_text": "| 4w | .96 | Q1 = 11 E + 4 × 1.2 R, Q2 = 32 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 11 E + 4 × 1.2 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 11,
+                "max": 11
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 4,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 1.2,
+                    "max": 1.2
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.9,
+                    "max": 0.9
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 32 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 32,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 3
+      },
+      "peak_fraction": 0.82,
+      "vdot_offset": 0,
+      "source_text": "| 3w | .82 | Q1 = 10 E + 5 × 0.6 R, Q2 = 10 T, Q3 = 26 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 10 E + 5 × 0.6 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.6,
+                    "max": 0.6
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.45,
+                    "max": 0.45
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 10 T",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "T",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q3",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q3 = 26 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 26,
+                "max": 26
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "week",
+        "before_race": 2
+      },
+      "peak_fraction": 0.58,
+      "vdot_offset": 0,
+      "source_text": "| 2w | .58 | Q1 = 8 E + 4 × 1.2 R, Q2 = 19 E | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 8 E + 4 × 1.2 R",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            },
+            {
+              "type": "repeat",
+              "count": 4,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "amount": {
+                    "unit": "km",
+                    "min": 1.2,
+                    "max": 1.2
+                  }
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "intensity": null,
+                  "amount": {
+                    "unit": "km",
+                    "min": 0.9,
+                    "max": 0.9
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q2 = 19 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 19,
+                "max": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "day",
+        "before_race": 5
+      },
+      "peak_fraction": null,
+      "vdot_offset": 0,
+      "source_text": "| 5d | - | 10 E | 0 |",
+      "sessions": [
+        {
+          "id": "S1",
+          "kind": "support",
+          "optional": false,
+          "source_text": "10 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 10,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "day",
+        "before_race": 4
+      },
+      "peak_fraction": null,
+      "vdot_offset": 0,
+      "source_text": "| 4d | - | Q1 = 8 E + 3 M | 0 |",
+      "sessions": [
+        {
+          "id": "Q1",
+          "kind": "quality",
+          "optional": false,
+          "source_text": "Q1 = 8 E + 3 M",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "amount": {
+                "unit": "km",
+                "min": 3,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "day",
+        "before_race": 2
+      },
+      "peak_fraction": null,
+      "vdot_offset": 0,
+      "source_text": "| 2d | - | 8 E | 0 |",
+      "sessions": [
+        {
+          "id": "S1",
+          "kind": "support",
+          "optional": false,
+          "source_text": "8 E",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 8,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "at": {
+        "unit": "day",
+        "before_race": 1
+      },
+      "peak_fraction": null,
+      "vdot_offset": 0,
+      "source_text": "| 1d | - | 6 E (tomorrow is the race) | 0 |",
+      "sessions": [
+        {
+          "id": "S1",
+          "kind": "support",
+          "optional": false,
+          "source_text": "6 E (tomorrow is the race)",
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "amount": {
+                "unit": "km",
+                "min": 6,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": []
+}
