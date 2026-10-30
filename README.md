@@ -17,6 +17,7 @@ The `sdr-training-planner` agent coordinates the full workflow. Each stage's ski
 ## Requirements
 
 - Node.js for the zero-dependency calculation and conversion scripts.
+- Python 3 and `uvx` (provided by `uv`) to run the Intervals.icu MCP server.
 - APM (Agent Package Manager) to install project dependencies and deploy its agent assets.
 - GitHub Copilot or VS Code for the configured agent targets.
 - For Intervals.icu export, access to an Intervals.icu account and its MCP server credentials.
