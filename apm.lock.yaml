@@ -30,6 +30,33 @@ deployments:
   content_hash: sha256:2ec409e1618d6654e5275aea8b7b0854e064c07d8fca917c3e39b1cda9b8fa70
 - kind: project-relative
   target: copilot
+  value: .agents/skills/sdr-intervals-export-plan
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/sdr-intervals-export-plan/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:0eb15a853e51afcfbe4c1336e10a7a31a80ba36fabfc315e5c5885c4fad99d33
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/sdr-intervals-export-plan/scripts/export-plan.js
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1db806953811d7eb9a3c78edde91b2637353004718becd34adc9855a26b106ea
+- kind: project-relative
+  target: copilot
   value: .agents/skills/sdr-normalize-framework
   runtime: null
   scope: project
@@ -173,6 +200,9 @@ local_deployed_files:
 - .agents/skills/sdr-calculate-intensity
 - .agents/skills/sdr-calculate-intensity/SKILL.md
 - .agents/skills/sdr-calculate-intensity/scripts/intensity.js
+- .agents/skills/sdr-intervals-export-plan
+- .agents/skills/sdr-intervals-export-plan/SKILL.md
+- .agents/skills/sdr-intervals-export-plan/scripts/export-plan.js
 - .agents/skills/sdr-normalize-framework
 - .agents/skills/sdr-normalize-framework/SKILL.md
 - .agents/skills/sdr-normalize-framework/references/normalized-format.md
@@ -189,6 +219,8 @@ local_deployed_files:
 local_deployed_file_hashes:
   .agents/skills/sdr-calculate-intensity/SKILL.md: sha256:998c802918ef76ef43c269cc771969468dcfa6fd711c78d2f9a472b69805fee5
   .agents/skills/sdr-calculate-intensity/scripts/intensity.js: sha256:2ec409e1618d6654e5275aea8b7b0854e064c07d8fca917c3e39b1cda9b8fa70
+  .agents/skills/sdr-intervals-export-plan/SKILL.md: sha256:0eb15a853e51afcfbe4c1336e10a7a31a80ba36fabfc315e5c5885c4fad99d33
+  .agents/skills/sdr-intervals-export-plan/scripts/export-plan.js: sha256:1db806953811d7eb9a3c78edde91b2637353004718becd34adc9855a26b106ea
   .agents/skills/sdr-normalize-framework/SKILL.md: sha256:e8444118ddea839e819e2ec1bb91461a16f662dfe720f658723b60f8c7d51a75
   .agents/skills/sdr-normalize-framework/references/normalized-format.md: sha256:c3117977cf1001a163898cd5f3dc5cd49a4fd7642b2f75f74083b8130cba407f
   .agents/skills/sdr-personalize-framework/SKILL.md: sha256:190ce9d8f45207c1ab629c306bb3e07081fc8e6c7839f10f21215b095f649d3e
