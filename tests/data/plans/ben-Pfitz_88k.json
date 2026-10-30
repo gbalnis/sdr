@@ -1,0 +1,3920 @@
+{
+  "schema_version": 1,
+  "framework": {
+    "title": "Pete Pfitzinger Marathon Training Program (up to 88 km)",
+    "source": "tests/data/inputs/Pfitz_88k.md"
+  },
+  "athlete": {
+    "name": "Ben",
+    "peak_week_km": 88,
+    "units": "metric",
+    "rest_weekdays": [
+      "monday"
+    ],
+    "week_start": "sunday",
+    "rest_day_numbers": [
+      2
+    ]
+  },
+  "vdot": {
+    "baseline": 45.5,
+    "from": {
+      "date": "2026-05-10",
+      "event": "half marathon",
+      "time": "1:39:13"
+    },
+    "performances": [
+      {
+        "date": "2026-05-10",
+        "event": "half marathon",
+        "time": "1:39:13",
+        "vdot": 45.5
+      },
+      {
+        "date": "2025-10-25",
+        "event": "marathon",
+        "time": "3:40:09",
+        "vdot": 42.1
+      }
+    ]
+  },
+  "strides": null,
+  "weeks": [
+    {
+      "week": 18,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 52.8,
+      "planned_km": 52.8,
+      "quality_km": 32,
+      "easy_km": 20.8,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 17,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 58.96,
+      "planned_km": 59,
+      "quality_km": 21,
+      "easy_km": 38,
+      "easy_runs": 5,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 16,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 64.24,
+      "planned_km": 64.2,
+      "quality_km": 36,
+      "easy_km": 28.2,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 15,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 67.76,
+      "planned_km": 67.8,
+      "quality_km": 24,
+      "easy_km": 43.8,
+      "easy_runs": 5,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 14,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 72.16,
+      "planned_km": 72.2,
+      "quality_km": 40,
+      "easy_km": 32.2,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 13,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 59.84,
+      "planned_km": 59.8,
+      "quality_km": 19,
+      "easy_km": 40.8,
+      "easy_runs": 5,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 12,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 80.08,
+      "planned_km": 80.1,
+      "quality_km": 63,
+      "easy_km": 17.1,
+      "easy_runs": 3,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 11,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 87.12,
+      "planned_km": 87.1,
+      "quality_km": 67,
+      "easy_km": 20.1,
+      "easy_runs": 3,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 10,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 79.2,
+      "planned_km": 79.2,
+      "quality_km": 49,
+      "easy_km": 30.2,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 9,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 68.64,
+      "planned_km": 68.6,
+      "quality_km": 38,
+      "easy_km": 30.6,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 8,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 88,
+      "planned_km": 88,
+      "quality_km": 50,
+      "easy_km": 38,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 7,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 88,
+      "planned_km": 88.05,
+      "quality_km": 52.25,
+      "easy_km": 35.8,
+      "easy_runs": 3,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 6,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 83.6,
+      "planned_km": 83.55,
+      "quality_km": 46.75,
+      "easy_km": 36.8,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 5,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 85.36,
+      "planned_km": 85.35,
+      "quality_km": 52.25,
+      "easy_km": 33.1,
+      "easy_runs": 3,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 4,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 84.48,
+      "planned_km": 84.5,
+      "quality_km": 51.4,
+      "easy_km": 33.1,
+      "easy_runs": 4,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 3,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 72.16,
+      "planned_km": 72.15,
+      "quality_km": 51.25,
+      "easy_km": 20.9,
+      "easy_runs": 3,
+      "rest_days": 1,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    },
+    {
+      "week": 2,
+      "vdot": 45.5,
+      "vdot_offset": 0,
+      "target_km": 51.04,
+      "planned_km": 51,
+      "quality_km": 35.4,
+      "easy_km": 15.6,
+      "easy_runs": 3,
+      "rest_days": 2,
+      "paces_per_km": {
+        "E": {
+          "min": "5:20",
+          "max": "6:00"
+        },
+        "M": "4:54",
+        "T": "4:36",
+        "I": "4:14",
+        "R": "3:53"
+      }
+    }
+  ],
+  "days": [
+    {
+      "before_race": 126,
+      "week": 18,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d126-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 13,
+          "duration_min": 69.55,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 6,
+              "duration_min": 27.55
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 125,
+      "week": 18,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 124,
+      "week": 18,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d124-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 123,
+      "week": 18,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d123-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 19,
+          "duration_min": 114,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 19,
+              "duration_min": 114
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 122,
+      "week": 18,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d122-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 121,
+      "week": 18,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d121-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 120,
+      "week": 18,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d120-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 119,
+      "week": 17,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d119-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 21,
+          "duration_min": 111.7,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "pace_per_km": "4:54",
+              "distance_km": 13,
+              "duration_min": 63.7
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 118,
+      "week": 17,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 117,
+      "week": 17,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d117-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 116,
+      "week": 17,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d116-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 115,
+      "week": 17,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d115-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 114,
+      "week": 17,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d114-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 113,
+      "week": 17,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d113-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 112,
+      "week": 16,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d112-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 13,
+          "duration_min": 69.55,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 6,
+              "duration_min": 27.55
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 111,
+      "week": 16,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 110,
+      "week": 16,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d110-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.1,
+          "duration_min": 42.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.1,
+              "duration_min": 42.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 109,
+      "week": 16,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d109-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 23,
+          "duration_min": 138,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 23,
+              "duration_min": 138
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 108,
+      "week": 16,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d108-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.1,
+          "duration_min": 42.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.1,
+              "duration_min": 42.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 107,
+      "week": 16,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d107-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7,
+          "duration_min": 42,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 106,
+      "week": 16,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d106-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7,
+          "duration_min": 42,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 105,
+      "week": 15,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d105-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 24,
+          "duration_min": 144,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 24,
+              "duration_min": 144
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 104,
+      "week": 15,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 103,
+      "week": 15,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d103-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.8,
+          "duration_min": 52.8,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.8,
+              "duration_min": 52.8
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 102,
+      "week": 15,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d102-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.8,
+          "duration_min": 52.8,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.8,
+              "duration_min": 52.8
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 101,
+      "week": 15,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d101-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.8,
+          "duration_min": 52.8,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.8,
+              "duration_min": 52.8
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 100,
+      "week": 15,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d100-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.7,
+          "duration_min": 52.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.7,
+              "duration_min": 52.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 99,
+      "week": 15,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d99-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.7,
+          "duration_min": 52.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.7,
+              "duration_min": 52.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 98,
+      "week": 14,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d98-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 14,
+          "duration_min": 72.73,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6,
+              "duration_min": 36
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 8,
+              "duration_min": 36.73
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 97,
+      "week": 14,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 96,
+      "week": 14,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d96-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.1,
+          "duration_min": 48.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.1,
+              "duration_min": 48.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 95,
+      "week": 14,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d95-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 26,
+          "duration_min": 138.4,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 10,
+              "duration_min": 60
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "pace_per_km": "4:54",
+              "distance_km": 16,
+              "duration_min": 78.4
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 94,
+      "week": 14,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d94-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.1,
+          "duration_min": 48.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.1,
+              "duration_min": 48.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 93,
+      "week": 14,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d93-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8,
+          "duration_min": 48,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 92,
+      "week": 14,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d92-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8,
+          "duration_min": 48,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 91,
+      "week": 13,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d91-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 19,
+          "duration_min": 114,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 19,
+              "duration_min": 114
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 90,
+      "week": 13,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 89,
+      "week": 13,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d89-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.2,
+          "duration_min": 49.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.2,
+              "duration_min": 49.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 88,
+      "week": 13,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d88-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.2,
+          "duration_min": 49.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.2,
+              "duration_min": 49.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 87,
+      "week": 13,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d87-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.2,
+          "duration_min": 49.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.2,
+              "duration_min": 49.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 86,
+      "week": 13,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d86-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.1,
+          "duration_min": 48.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.1,
+              "duration_min": 48.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 85,
+      "week": 13,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d85-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.1,
+          "duration_min": 48.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.1,
+              "duration_min": 48.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 84,
+      "week": 12,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d84-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 16,
+          "duration_min": 84.73,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 8,
+              "duration_min": 36.73
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 83,
+      "week": 12,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 82,
+      "week": 12,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d82-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 18,
+          "duration_min": 108,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 18,
+              "duration_min": 108
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 81,
+      "week": 12,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d81-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.7,
+          "duration_min": 34.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.7,
+              "duration_min": 34.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 80,
+      "week": 12,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d80-Q3",
+          "kind": "quality",
+          "session_id": "Q3",
+          "optional": false,
+          "distance_km": 29,
+          "duration_min": 174,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 29,
+              "duration_min": 174
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 79,
+      "week": 12,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d79-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.7,
+          "duration_min": 34.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.7,
+              "duration_min": 34.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 78,
+      "week": 12,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d78-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.7,
+          "duration_min": 34.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.7,
+              "duration_min": 34.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 77,
+      "week": 11,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d77-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 19,
+          "duration_min": 114,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 19,
+              "duration_min": 114
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 76,
+      "week": 11,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 75,
+      "week": 11,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d75-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 16,
+          "duration_min": 81.92,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6,
+              "duration_min": 36
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 10,
+              "duration_min": 45.92
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 74,
+      "week": 11,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d74-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 6.7,
+          "duration_min": 40.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6.7,
+              "duration_min": 40.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 73,
+      "week": 11,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d73-Q3",
+          "kind": "quality",
+          "session_id": "Q3",
+          "optional": false,
+          "distance_km": 32,
+          "duration_min": 192,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 32,
+              "duration_min": 192
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 72,
+      "week": 11,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d72-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 6.7,
+          "duration_min": 40.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6.7,
+              "duration_min": 40.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 71,
+      "week": 11,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d71-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 6.7,
+          "duration_min": 40.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6.7,
+              "duration_min": 40.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 70,
+      "week": 10,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d70-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 23,
+          "duration_min": 138,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 23,
+              "duration_min": 138
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 69,
+      "week": 10,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 68,
+      "week": 10,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d68-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 67,
+      "week": 10,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d67-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 26,
+          "duration_min": 135.1,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "pace_per_km": "4:54",
+              "distance_km": 19,
+              "duration_min": 93.1
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 66,
+      "week": 10,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d66-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 65,
+      "week": 10,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d65-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.5,
+          "duration_min": 45,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.5,
+              "duration_min": 45
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 64,
+      "week": 10,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d64-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.5,
+          "duration_min": 45,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.5,
+              "duration_min": 45
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 63,
+      "week": 9,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d63-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 15,
+          "duration_min": 81.53,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 0.8,
+                  "duration_min": 3.11
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 5,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.6,
+                  "duration_min": 3.6
+                }
+              },
+              "distance_km": 7,
+              "duration_min": 33.53
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 62,
+      "week": 9,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 61,
+      "week": 9,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d61-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.7,
+          "duration_min": 46.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.7,
+              "duration_min": 46.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 60,
+      "week": 9,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d60-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 23,
+          "duration_min": 138,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 23,
+              "duration_min": 138
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 59,
+      "week": 9,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d59-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.7,
+          "duration_min": 46.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.7,
+              "duration_min": 46.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 58,
+      "week": 9,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d58-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 57,
+      "week": 9,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d57-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7.6,
+          "duration_min": 45.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7.6,
+              "duration_min": 45.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 56,
+      "week": 8,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d56-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 18,
+          "duration_min": 92.51,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            },
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 11,
+              "duration_min": 50.51
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 55,
+      "week": 8,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 54,
+      "week": 8,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d54-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.5,
+          "duration_min": 57,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.5,
+              "duration_min": 57
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 53,
+      "week": 8,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d53-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 32,
+          "duration_min": 192,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 32,
+              "duration_min": 192
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 52,
+      "week": 8,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d52-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.5,
+          "duration_min": 57,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.5,
+              "duration_min": 57
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 51,
+      "week": 8,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d51-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.5,
+          "duration_min": 57,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.5,
+              "duration_min": 57
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 50,
+      "week": 8,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d50-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.5,
+          "duration_min": 57,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.5,
+              "duration_min": 57
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 49,
+      "week": 7,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d49-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 15.25,
+          "duration_min": 85.15,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 10,
+              "duration_min": 60
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 0.6,
+                  "duration_min": 2.33
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 5,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.45,
+                  "duration_min": 2.7
+                }
+              },
+              "distance_km": 5.25,
+              "duration_min": 25.15
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 48,
+      "week": 7,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 47,
+      "week": 7,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d47-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 10,
+          "duration_min": 45.92,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 10,
+              "duration_min": 45.92
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 46,
+      "week": 7,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d46-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 12,
+          "duration_min": 72,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 12,
+              "duration_min": 72
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 45,
+      "week": 7,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d45-Q3",
+          "kind": "quality",
+          "session_id": "Q3",
+          "optional": false,
+          "distance_km": 27,
+          "duration_min": 162,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 27,
+              "duration_min": 162
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 44,
+      "week": 7,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d44-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 11.9,
+          "duration_min": 71.4,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 11.9,
+              "duration_min": 71.4
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 43,
+      "week": 7,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d43-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 11.9,
+          "duration_min": 71.4,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 11.9,
+              "duration_min": 71.4
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 42,
+      "week": 6,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d42-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 17.75,
+          "duration_min": 95.92,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9,
+              "duration_min": 54
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 1,
+                  "duration_min": 3.88
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 5,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.75,
+                  "duration_min": 4.5
+                }
+              },
+              "distance_km": 8.75,
+              "duration_min": 41.92
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 41,
+      "week": 6,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 40,
+      "week": 6,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d40-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.2,
+          "duration_min": 55.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.2,
+              "duration_min": 55.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 39,
+      "week": 6,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d39-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 29,
+          "duration_min": 148.7,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6,
+              "duration_min": 36
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "pace_per_km": "4:54",
+              "distance_km": 23,
+              "duration_min": 112.7
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 38,
+      "week": 6,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d38-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.2,
+          "duration_min": 55.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.2,
+              "duration_min": 55.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 37,
+      "week": 6,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d37-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.2,
+          "duration_min": 55.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.2,
+              "duration_min": 55.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 36,
+      "week": 6,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d36-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 9.2,
+          "duration_min": 55.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 9.2,
+              "duration_min": 55.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 35,
+      "week": 5,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d35-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 15.25,
+          "duration_min": 85.15,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 10,
+              "duration_min": 60
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 0.6,
+                  "duration_min": 2.33
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 5,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.45,
+                  "duration_min": 2.7
+                }
+              },
+              "distance_km": 5.25,
+              "duration_min": 25.15
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 34,
+      "week": 5,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 33,
+      "week": 5,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d33-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 10,
+          "duration_min": 45.92,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 10,
+              "duration_min": 45.92
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 32,
+      "week": 5,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d32-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 11.1,
+          "duration_min": 66.6,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 11.1,
+              "duration_min": 66.6
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 31,
+      "week": 5,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d31-Q3",
+          "kind": "quality",
+          "session_id": "Q3",
+          "optional": false,
+          "distance_km": 27,
+          "duration_min": 162,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 27,
+              "duration_min": 162
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 30,
+      "week": 5,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d30-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 11,
+          "duration_min": 66,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 11,
+              "duration_min": 66
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 29,
+      "week": 5,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d29-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 11,
+          "duration_min": 66,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 11,
+              "duration_min": 66
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 28,
+      "week": 4,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d28-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 19.4,
+          "duration_min": 106.24,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 11,
+              "duration_min": 66
+            },
+            {
+              "type": "repeat",
+              "count": 4,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 1.2,
+                  "duration_min": 4.66
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 4,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.9,
+                  "duration_min": 5.4
+                }
+              },
+              "distance_km": 8.4,
+              "duration_min": 40.24
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 27,
+      "week": 4,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 26,
+      "week": 4,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d26-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.3,
+          "duration_min": 49.8,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.3,
+              "duration_min": 49.8
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 25,
+      "week": 4,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d25-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 32,
+          "duration_min": 192,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 32,
+              "duration_min": 192
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 24,
+      "week": 4,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d24-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.3,
+          "duration_min": 49.8,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.3,
+              "duration_min": 49.8
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 23,
+      "week": 4,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d23-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.3,
+          "duration_min": 49.8,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.3,
+              "duration_min": 49.8
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 22,
+      "week": 4,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d22-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 8.2,
+          "duration_min": 49.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8.2,
+              "duration_min": 49.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 21,
+      "week": 3,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d21-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 15.25,
+          "duration_min": 85.15,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 10,
+              "duration_min": 60
+            },
+            {
+              "type": "repeat",
+              "count": 5,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 0.6,
+                  "duration_min": 2.33
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 5,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.45,
+                  "duration_min": 2.7
+                }
+              },
+              "distance_km": 5.25,
+              "duration_min": 25.15
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 20,
+      "week": 3,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 19,
+      "week": 3,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d19-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 10,
+          "duration_min": 45.92,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "T",
+              "pace_per_km": "4:36",
+              "distance_km": 10,
+              "duration_min": 45.92
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 18,
+      "week": 3,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d18-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7,
+          "duration_min": 42,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 17,
+      "week": 3,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d17-Q3",
+          "kind": "quality",
+          "session_id": "Q3",
+          "optional": false,
+          "distance_km": 26,
+          "duration_min": 156,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 26,
+              "duration_min": 156
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 16,
+      "week": 3,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d16-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 7,
+          "duration_min": 42,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 7,
+              "duration_min": 42
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 15,
+      "week": 3,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d15-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 6.9,
+          "duration_min": 41.4,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6.9,
+              "duration_min": 41.4
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 14,
+      "week": 2,
+      "day_in_week": 1,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d14-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 16.4,
+          "duration_min": 88.24,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            },
+            {
+              "type": "repeat",
+              "count": 4,
+              "steps": [
+                {
+                  "type": "run",
+                  "intensity": "R",
+                  "pace_per_km": "3:53",
+                  "distance_km": 1.2,
+                  "duration_min": 4.66
+                }
+              ],
+              "recovery": {
+                "placement": "after_each",
+                "count": 4,
+                "step": {
+                  "type": "recovery",
+                  "mode": "jog",
+                  "pace_per_km": {
+                    "min": "5:20",
+                    "max": "6:00"
+                  },
+                  "distance_km": 0.9,
+                  "duration_min": 5.4
+                }
+              },
+              "distance_km": 8.4,
+              "duration_min": 40.24
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 13,
+      "week": 2,
+      "day_in_week": 2,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "athlete_rest_day"
+    },
+    {
+      "before_race": 12,
+      "week": 2,
+      "day_in_week": 3,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d12-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 11,
+      "week": 2,
+      "day_in_week": 4,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d11-Q2",
+          "kind": "quality",
+          "session_id": "Q2",
+          "optional": false,
+          "distance_km": 19,
+          "duration_min": 114,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 19,
+              "duration_min": 114
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 10,
+      "week": 2,
+      "day_in_week": 5,
+      "vdot": 45.5,
+      "runs": [],
+      "kind": "rest",
+      "rest_reason": "extra_rest_day"
+    },
+    {
+      "before_race": 9,
+      "week": 2,
+      "day_in_week": 6,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d9-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 8,
+      "week": 2,
+      "day_in_week": 7,
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d8-E",
+          "kind": "easy",
+          "session_id": null,
+          "optional": false,
+          "distance_km": 5.2,
+          "duration_min": 31.2,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 5.2,
+              "duration_min": 31.2
+            }
+          ]
+        }
+      ],
+      "kind": "run"
+    },
+    {
+      "before_race": 7,
+      "week": null,
+      "day_in_week": null,
+      "kind": "rest",
+      "rest_reason": "framework_gap",
+      "runs": []
+    },
+    {
+      "before_race": 6,
+      "week": null,
+      "day_in_week": null,
+      "kind": "rest",
+      "rest_reason": "framework_gap",
+      "runs": []
+    },
+    {
+      "before_race": 5,
+      "week": null,
+      "day_in_week": null,
+      "kind": "run",
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d5-S1",
+          "kind": "support",
+          "session_id": "S1",
+          "optional": false,
+          "distance_km": 10,
+          "duration_min": 60,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 10,
+              "duration_min": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "before_race": 4,
+      "week": null,
+      "day_in_week": null,
+      "kind": "run",
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d4-Q1",
+          "kind": "quality",
+          "session_id": "Q1",
+          "optional": false,
+          "distance_km": 11,
+          "duration_min": 62.7,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            },
+            {
+              "type": "run",
+              "intensity": "M",
+              "pace_per_km": "4:54",
+              "distance_km": 3,
+              "duration_min": 14.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "before_race": 3,
+      "week": null,
+      "day_in_week": null,
+      "kind": "rest",
+      "rest_reason": "framework_gap",
+      "runs": []
+    },
+    {
+      "before_race": 2,
+      "week": null,
+      "day_in_week": null,
+      "kind": "run",
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d2-S1",
+          "kind": "support",
+          "session_id": "S1",
+          "optional": false,
+          "distance_km": 8,
+          "duration_min": 48,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 8,
+              "duration_min": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "before_race": 1,
+      "week": null,
+      "day_in_week": null,
+      "kind": "run",
+      "vdot": 45.5,
+      "runs": [
+        {
+          "id": "d1-S1",
+          "kind": "support",
+          "session_id": "S1",
+          "optional": false,
+          "distance_km": 6,
+          "duration_min": 36,
+          "steps": [
+            {
+              "type": "run",
+              "intensity": "E",
+              "pace_per_km": {
+                "min": "5:20",
+                "max": "6:00"
+              },
+              "distance_km": 6,
+              "duration_min": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "before_race": 0,
+      "week": null,
+      "day_in_week": null,
+      "kind": "race",
+      "runs": []
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "framework_gap_rest",
+      "where": "days",
+      "message": "Framework does not prescribe days 7-6, 3 before the race; planned as rest"
+    }
+  ]
+}

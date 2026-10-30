@@ -172,6 +172,15 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:fe4d33b04182f055dc7f5e53bad383a878fe63edc4811698ea0953b87c5f39ae
+- kind: project-relative
+  target: copilot
+  value: .github/agents/sdr-training-planner.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:fc4dc19b2abddc739010197f8e31271df939522155e35eb14d69d24fa2d2ed52
 - kind: uri
   target: mcp
   value: intervals-icu-mcp
@@ -216,6 +225,7 @@ local_deployed_files:
 - .agents/skills/sdr-vdot-paces
 - .agents/skills/sdr-vdot-paces/SKILL.md
 - .agents/skills/sdr-vdot-paces/scripts/paces.js
+- .github/agents/sdr-training-planner.agent.md
 local_deployed_file_hashes:
   .agents/skills/sdr-calculate-intensity/SKILL.md: sha256:998c802918ef76ef43c269cc771969468dcfa6fd711c78d2f9a472b69805fee5
   .agents/skills/sdr-calculate-intensity/scripts/intensity.js: sha256:2ec409e1618d6654e5275aea8b7b0854e064c07d8fca917c3e39b1cda9b8fa70
@@ -230,3 +240,4 @@ local_deployed_file_hashes:
   .agents/skills/sdr-vdot-estimate/scripts/vdot.js: sha256:bbc8d75585dd07a0bd862a50ae93c6f90dc35bfa79c2fcc986ee1370c43c27a7
   .agents/skills/sdr-vdot-paces/SKILL.md: sha256:01019cff26e1bc2e9d942132cecc31a649923459e13e976267e8626d338b61bd
   .agents/skills/sdr-vdot-paces/scripts/paces.js: sha256:fe4d33b04182f055dc7f5e53bad383a878fe63edc4811698ea0953b87c5f39ae
+  .github/agents/sdr-training-planner.agent.md: sha256:fc4dc19b2abddc739010197f8e31271df939522155e35eb14d69d24fa2d2ed52
