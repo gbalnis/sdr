@@ -1,0 +1,33 @@
+name: Release APM package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release tag
+        uses: actions/checkout@v4
+
+      - name: Validate release version
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          package_version="$(sed -n 's/^version: //p' apm.yml)"
+          if [[ "v${package_version}" != "${RELEASE_TAG}" ]]; then
+            echo "Release tag ${RELEASE_TAG} does not match apm.yml version v${package_version}" >&2
+            exit 1
+          fi
+
+      - name: Build and publish APM release
+        uses: microsoft/apm-action@v1
+        with:
+          mode: release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
