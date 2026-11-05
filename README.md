@@ -98,4 +98,4 @@ The repository currently provides example inputs and outputs rather than a stand
 
 ## License
 
-This project is distributed under the [MIT License](LICENSE).
+This project is distributed under the EUPL 1.2 license. See [LICENSE](LICENSE).
